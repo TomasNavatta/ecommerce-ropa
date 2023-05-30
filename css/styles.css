@@ -1,0 +1,1175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    width: 119.5rem;
+    height: 9rem;
+    position: fixed;
+
+    z-index: 1;
+}
+
+.logotipo{
+    text-align: center;
+    display: inline-block;
+   position: relative;
+   left: 55rem;
+  /* margin-left: 55rem; */
+  margin-top: 1rem;
+  width: 7rem;
+  height:7rem;
+    
+}
+
+.search{
+    
+    position: relative;
+    top: 1rem;
+    left: 100rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 6rem;
+}
+
+.compra{
+   
+    position: relative;
+    top: 1rem;
+    left: 102rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 6rem;
+}
+
+.usuario{
+    
+    position: relative;
+    top: 1rem;
+    left: 104rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 6rem;
+}
+
+.sizeul{
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    padding-left: 2rem;
+    position: relative;
+    bottom: 4.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.colorMarcas a:hover{
+    color: red;
+}
+
+li a{
+    color: black;
+}
+
+ a:hover{
+    color: red;
+}
+
+.portada{
+    height: 39.65rem;
+    margin-top: 8rem;
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 20rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Carlito', sans-serif;
+    margin-left: 12rem;
+    position: relative;
+    bottom: 13rem;
+}
+
+.campera-northface{
+    width: 23rem;
+    height: 23rem;
+}
+
+.buzo-offwhite{
+    width: 18rem;
+    height: 20rem;
+    position: relative;
+    top: 2rem;
+   
+}
+
+.aline-text{
+    position: relative;
+    top: 3rem;
+     
+    
+}
+
+.remera-stussy{
+    width: 29rem;
+    height: 26rem;
+    position: relative;
+    right: 8rem;
+    bottom: 2rem;
+}
+
+.alineacion-texto{
+    position: relative;
+    bottom: 2.9rem;
+    right: 4rem;
+    
+}
+
+.gorra-supreme{
+    width: 21rem;
+    height: 13rem;
+    position: relative;
+    top: 6rem;
+    right: 8rem;
+}
+
+.text-aline{
+    position: relative;
+    top:10rem;
+    right: 6rem;
+
+}
+
+.marcas{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 4rem;
+}
+
+.logo-jordan{
+    height: 6rem;
+    width: 10rem;
+}
+
+.logo-stussy{
+    height: 7rem;
+    width: 11rem;
+}
+
+.logo-essentials{
+    height: 4rem;
+    width: 8rem;
+    position: relative;
+    top: 2rem;
+}
+
+.logo-palmangels{
+    height: 7rem;
+    width: 11rem;
+}
+
+.logo-northface{
+    height: 5rem;
+    width: 9rem;
+    position: relative;
+    top: 1.2rem;
+
+}
+
+.logo-offwhite{
+    height: 7rem;
+    width: 11rem;
+}
+
+.ropaContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    font-family: 'Overpass Mono', monospace;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.imagen-calzado{
+    height: 35rem;
+    width: 37rem;
+}
+
+section div a:hover{
+    color: white;
+}
+
+section div a{
+    color: white;
+}
+
+.textPortadaCalzado{
+    text-align: center;
+    position: relative;
+    bottom: 18rem;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Carlito', sans-serif;
+}
+
+.calzado{
+    position: relative;
+    bottom: 20rem;
+}
+
+.imagen-indumentaria{
+    height: 35rem;
+    width: 37rem;
+}
+
+.indumentaria{
+    position: relative;
+    bottom: 20rem;
+}
+
+.imagen-accesorios{
+    height: 35rem;
+    width: 37rem;
+}
+
+.accesorios{
+    position: relative;
+    bottom: 20rem;
+}
+
+.quienes-somos{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+    font-family: 'Overpass Mono', monospace;
+    
+    
+}
+
+.texto-quienesomos{
+
+    text-align: center;
+    font-family: 'Carlito', sans-serif;
+    font-size: 1.6rem;
+
+}
+
+.imgConteiner{
+    display: flex;
+    margin-top: 15rem;
+    justify-content: space-around 
+    
+}
+
+
+
+.imagen-jordan{
+    height: 33.2rem;
+    width: 35rem;
+}
+
+.imagen-supreme{
+    height: 33.2rem;
+    width: 35rem;
+}
+
+.iconContainer{
+    display: flex;
+    font-family: 'Carlito', sans-serif;
+    margin-top: 8rem;
+    justify-content: space-around;
+}
+
+.productos{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 3rem; 
+}
+
+.exclusivos{
+    font-size: 1.2rem;
+    position: relative;
+    right: 7rem;
+    
+    
+}
+.camion{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 3rem;
+}
+
+.envios{
+    font-size: 1.2rem;
+    position: relative;
+    right: 7rem;
+   
+    
+}
+
+.candado{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 3rem;
+}
+
+.seguro{
+    font-size: 1.2rem;
+    position: relative;
+    right: 7rem;
+   
+}
+
+.garantia{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 3rem;
+}
+
+.calidad{
+    font-size: 1.2rem;
+    position: relative;
+    right: 7rem;
+    
+}
+
+.separador{
+    margin-top: 4rem;
+}
+
+footer{
+    margin-top: 2rem;
+
+}
+.soporteContainer{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+}
+.soporte{
+    position: relative;
+    left: 5rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace;
+    
+}
+
+.preguntas{
+    position: relative;
+    top: 1.5rem;
+    left: 6rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+    color: black;
+}
+
+.flecha{
+    position: relative;
+    top: 1.9rem;
+    right: 6rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-weight: bolder 3rem;
+}
+
+.devoluciones{
+    position: relative;
+    top: 3.5rem;
+    right: 5.5rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+    color: black;
+}
+
+.flecha-right{
+    position: relative;
+    top: 4rem;
+    right: 18.7rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-weight: bolder 3rem;
+}
+
+.mail{
+    position: relative;
+    top: 6.27rem;
+    right: 20rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-weight: bolder 3rem;
+}
+
+.gmail{
+    position: relative;
+    top: 4.5rem;
+    left: 6rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+}
+
+.phone{
+    position: relative;
+    top: 5.5rem;
+    left: 4.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-weight: bolder 3rem;
+}
+
+.numero{
+    position: relative;
+    top: 4rem;
+    left: 6rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+}
+
+.metodosde-pago{
+    position: relative;
+    bottom: 5.5rem;
+    left: 20rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace;
+    display: inline-block;
+}
+
+.pagosContainer{
+    position: relative;
+    bottom: 2rem;
+    left: 6rem;
+    display: inline-block;
+}
+
+.visa{
+    position: relative;
+    font-size: 3.5rem;
+}
+
+.mastercard{
+    position: relative;
+    font-size: 3rem;
+}
+
+.paypal{
+    position: relative;
+    font-size: 3rem;
+}
+
+.redes-sociales{
+    position: relative;
+    bottom: 5.5rem;
+    left: 35rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace;
+    display: inline-block;
+}
+
+.instagram{
+    position: relative;
+    bottom: 2rem;
+    left: 22rem;
+    font-size: 3rem;
+}
+
+.copyright{
+    position: relative;
+    top: 10rem;
+    right: 68rem;
+    font-size: 0.9rem;
+    font-family: 'Carlito', sans-serif;
+    display: inline-block;
+    padding-bottom: 3rem;
+}
+
+.separadorHeader{
+    width: 71rem;
+    position: relative;
+    left: 49.97rem;
+    bottom: 4.6rem;
+    
+}
+
+.articleContainer{
+    display: flex;
+}
+
+.portadaContacto{
+    height: 70rem;
+    width: 50rem;
+}
+
+.contacto{
+    position: relative;
+    left: 5rem;
+    margin-top: 12rem;
+    font-size: 2.5rem;
+    font-family: 'Overpass Mono', monospace;
+}
+
+.contactanos{
+    margin-top: 16rem;
+    width: 53rem;
+    position: relative;
+    right: 10rem;
+    font-size: 1.5rem;
+    font-family: 'Carlito', sans-serif;
+    display: block
+    
+}
+
+.mailContacto{
+    margin-top: 22rem;
+    position: relative;
+    right: 59rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-weight: bolder 3rem;
+}
+
+.gmailContacto{
+    margin-top: 22rem;
+    position: relative;
+    right: 58.5rem;
+    font-family: 'Carlito', sans-serif;
+}
+
+.formulario{
+    margin-top: 24rem;
+    position: relative;
+    right: 42rem;
+    
+
+}
+
+form{
+    padding-top: 20rem;
+    position: relative;
+    right:10rem;
+    font-family: 'Carlito', sans-serif;
+    
+    
+}
+
+.nombre{
+    width: 35rem;
+    height: 2rem;
+    display: block;
+}
+
+
+.asunto{
+    width: 35rem;
+    height: 2rem;
+    display: block;
+}
+
+.mensaje{
+    width: 35rem;
+    height: 2rem;
+    display: block;
+}
+
+.enviar{
+    height: 2rem;
+    width: 5rem;
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+}
+
+.maps{
+    margin-top: 3rem;
+}
+
+.imgPortada{
+    width: 100%;
+    height: 40rem;
+}
+
+.textPortada{
+    text-align: center;
+    position: relative;
+    bottom: 18rem;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Carlito', sans-serif;
+}
+
+.accordion{
+    width: 50rem;
+}
+
+.textAlignPreguntasFrecuentes{
+    
+    padding-left: 35rem;
+    
+}
+
+.accordion-header{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.accordion-item{
+    font-family: 'Carlito', sans-serif;
+   
+}
+
+.letter{
+   font-size: 1.5rem;
+   font-weight: bold;
+   font-family: 'Overpass Mono', monospace;
+}
+
+button:hover{
+    color: red;
+}
+
+.textPortadaPoliticaDeDevoluciones{
+    text-align: center;
+    position: relative;
+    bottom: 18rem;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Carlito', sans-serif;
+
+}
+
+.textPoliticaDeDevoluciones{
+   padding-left: 25rem;
+   position: relative;
+   bottom: 3rem;
+   font-family: 'Carlito', sans-serif;
+   margin-bottom: 10rem;
+}
+
+.textPortadaCategorias{
+    text-align: center;
+    position: relative;
+    bottom: 18rem;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Carlito', sans-serif;
+
+}
+
+
+.imgPortadaNosotros{
+    width: 100%;
+    height: 40rem;
+    position: relative;
+    top: 9rem;
+}
+
+.textNosotros{
+    padding-top: 15rem;
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: 'Carlito', sans-serif;
+}
+
+.imgalign{
+    position: relative;
+    top: 10rem;
+}
+.imgBannerUbicacion{
+    width: 110rem;
+    padding-left: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.textUbication{
+    text-align: center;
+    font-family: 'Carlito', sans-serif;
+    font-size: 1.8rem;
+    position: relative;
+    bottom: 27rem;
+    color: white;
+}
+
+.textUbication i{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+
+
+.sizeImgJordanBlackCat{
+    width: 20rem;
+    position: relative;
+    right: 7rem;
+    
+
+}
+
+.textAlignJordanBlackCat{
+    margin-top: 3rem;
+    position: relative;
+    right: 8rem;
+}
+.sizeImgJordanOffWhite{
+    width: 22rem;
+    position: relative;
+    bottom: 5rem;
+   
+    
+    
+}
+
+.textAlignJordanOffWhite{
+    position: relative;
+    bottom: 2rem;
+    right: 1.5rem;
+}
+
+.sizeImgJordan1Retro85{
+    
+    position: relative;
+    bottom: 3rem;
+   left: 7rem;
+   
+    
+}
+
+.textAlignJordan1Retro85{
+    position: relative;
+    bottom: 2rem;
+    left: 5rem;
+}
+
+.sizeImgJordanMilitaryBlack{
+    width: 25rem;
+    margin-top: 10rem;
+    position: relative;
+    right: 7rem;
+   
+}
+
+.textAlignJordanMilitaryBlack{
+    position: relative;
+    right: 9rem;
+    bottom: 3rem;
+}
+.sizeImgJordanPureMoney{
+    width: 21rem;
+    margin-top: 10rem;
+    position: relative;
+    right: 3rem;
+    top: 5rem;
+   
+}
+
+.textAlignJordanPureMoney{
+    position: relative;
+    top: 8.5rem;
+    right: 4rem;
+}
+
+.sizeImgJordan1RetroUniversityBlue{
+    width: 27rem;
+    margin-top: 10rem;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+    
+}
+
+.textAlignJordan1RetroUniversityBlue{
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+
+.sizeImgJordanTravisScott{
+    width: 27rem;
+    position: relative;
+    right: 10rem;
+ 
+}
+
+.textAlignJordanTravisScott{
+    position: relative;
+    top: 3.5rem;
+    right: 12rem;
+}
+
+.sizeImgJordanHyperRoyal{
+    width: 28rem;
+    position: relative;
+    right: 6rem;
+}
+
+.textAlignJordanHyperRoyal{
+    position: relative;
+    bottom: 10rem;
+    right: 7rem;
+}
+
+.sizeImgJordan1RetroDarkMocha{
+    width: 23rem;
+    position: relative;
+    top: 8rem;
+    left: 1.5rem;
+}
+
+.textAlignJordan1RetroDarkMocha{
+    position: relative;
+    top: 6rem;
+}
+
+.sizeImgJordanRoyalToe{
+    width: 25rem;
+    position: relative;
+    right: 11rem;
+}
+
+.textAlignJordanRoyalToe{
+    position: relative;
+    right: 13rem;
+    bottom: 3rem;
+}
+.sizeImgYeezyBlackRed{
+    width: 25rem;
+    position: relative;
+    right: 5rem;
+}
+
+.textAlignYeezyBlackRed{
+    position: relative;
+    right: 6rem;
+    bottom: 3rem;
+}
+
+.sizeImgYeezyCream{
+    width: 23rem;
+    position: relative;
+    top: 7rem;
+    left: 2rem;
+}
+
+.textAlignYeezyCream{
+    position: relative;
+    top: 10rem;
+    left: 1.5rem;
+}
+
+.textPortadaIndumentaria{
+    text-align: center;
+    position: relative;
+    bottom: 18rem;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Carlito', sans-serif;
+}
+
+.sizeImngHoodieStussy{
+    width: 30rem;
+    position: relative;
+    right: 9rem;
+}
+
+.textAlignHoodieStussy{
+    position: relative;
+    right: 9rem;
+    top: 3rem;
+}
+
+.sizeImngPantsEssentialsButterCream{
+    width: 18rem;
+    position: relative;
+    right: 3rem;
+}
+
+.textAlignPantsEssentialsButterCream{
+    position: relative;
+    right: 3rem;
+    top: 3rem;
+}
+.sizeImngT-shirtCactusJack{
+    width: 20rem;
+    position: relative;
+    left: 11rem;
+
+}
+
+.textAlignT-shirtCactusJack{
+    position: relative;
+    left: 11rem;
+    top: 1rem;
+}
+
+.sizeImngT-shirtStussyWorldTour{
+    width: 20rem;
+    margin-top: 10rem;
+    position: relative;
+    right: 8rem;
+ 
+}
+
+.textAlignT-shirtStussyWorldTour{
+    position: relative;
+    right: 8rem;
+    top: 2rem;
+}
+
+.sizeImngHoodieEssentialTaupe{
+    width: 25rem;
+    margin-top: 11rem;
+    
+    
+}
+
+.textAlignHoodieEssentialTaupe{
+    position: relative;
+    top: 3rem;
+}
+
+.sizeImngShortEssentialsButterCream{
+    width: 20rem;
+    margin-top: 11rem;
+    position: relative;
+    left: 12rem;
+
+}
+
+.textAlignShortEssentialsButterCream{
+    position: relative;
+    left: 11rem;
+    top: 2rem;
+}
+
+.sizeImngHoodieEssentialCanary{
+    width: 22rem;
+    margin-top: 10rem;
+    position: relative;
+    right: 10rem;
+}
+
+.textAlignHoodieEssentialCanary{
+    position: relative;
+    right: 10rem;
+    top: 2rem;
+}
+
+.sizeImngT-shirtTravisScot{
+    width: 20rem;
+    margin-top: 10rem;
+    
+    
+}
+
+.textAlignT-shirtTravisScot{
+    position: relative;
+    top: 4rem;
+}
+
+.sizeImngHoodieSupremeNatural{
+    width: 20rem;
+    margin-top: 10rem;
+    position: relative;
+    left: 12rem;
+}
+
+.textAlignHoodieSupremeNatural{
+    position: relative;
+    left: 11rem;
+    top: 4rem;
+}
+
+.sizeImngPantsEssentialsOffBlack{
+    width: 22rem;
+    margin-top: 10rem;
+    position: relative;
+    right: 11rem;
+}
+
+.textAlignPantsEssentialsOffBlack{
+    position: relative;
+    right: 11rem;
+    top: 3rem;
+}
+
+.sizeImngShortJordanxTravisScott{
+    width: 22rem;
+    margin-top: 10rem;
+}
+
+.textAlignShortJordanxTravisScott{
+    position: relative;
+    top: 3rem;
+}
+
+.sizeImngHoodieEssentials{
+    width: 20rem;
+    margin-top: 10rem;
+    position: relative;
+    left: 11rem;
+}
+
+.textAlignHoodieEssentials{
+    position: relative;
+    left: 10rem;
+    top: 4rem;
+}
+
+
+.sizeul_responsive{
+    display: none;
+}
+
+.logotipo_responsive{
+    display: none;
+}
+
+@media screen and (max-width:500px){
+
+   
+
+   .separador{
+    width: 30rem;
+   }
+
+    .instagram{
+        position: relative;
+       left: 2rem;
+       top: 11rem;
+    }
+
+    .metodosde-pago{
+        position: relative;
+      left: 3rem;
+      top: 6rem;
+      
+      
+    }
+
+    .pagosContainer{
+       
+        position: relative;
+        top: 6rem;
+    }
+
+    .redes-sociales{
+        
+        position: relative;
+        left: 3rem;
+        top: 10rem;
+    }
+
+   .footer_responsive{
+    display: flex;
+    flex-direction: column;
+   }
+
+    .imgPortada{
+        padding-left: 0.5rem;
+        width: 95%;
+        height: 22rem;
+    }
+
+    .textPortada{
+        position: relative;
+        bottom: 8rem;
+        color: white;
+        font-size: 3rem;
+    }
+
+    .textAlignPreguntasFrecuentes{
+
+        position: relative;
+        right: 32rem;
+    }
+
+    .accordion{
+        width: 20rem;
+    } 
+
+    .logotipo{
+        display: none;
+    }
+
+    .sizeul{
+        display: none;
+    }
+    .sizeul_responsive{
+        display: block;
+        margin-left: 3rem;
+       position: relative;
+       right: 6.4rem;
+       top: 5rem;
+    }
+
+    .logotipo_responsive{
+        display: block;
+        width: 5rem;
+        position: relative;
+        left: 11rem;
+        bottom: 1rem;
+
+}
+
+.gmail_responsive{
+    position: relative;
+    top: 4.3rem;
+}
+
+.numero_responsive{
+    position: relative;
+    top: 3rem;
+
+}
+
+.phone_responsive{
+    position: relative;
+    top: 4.5rem;
+}
+
+.mail_responsive{
+    position: relative;
+    right: 20rem;
+   top: 6rem;
+}
+
+.textPortadaPoliticaDeDevoluciones{
+    position: relative;
+        bottom: 10rem;
+        color: white;
+        font-size: 3rem;
+}
+
+.textPoliticaDeDevoluciones{
+    display: flex;
+   padding-left: 1rem;
+}
+
+
+}
+
+
