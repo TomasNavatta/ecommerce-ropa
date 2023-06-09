@@ -502,15 +502,17 @@ footer{
 }
 
 .redes-sociales{
+    display: inline-block;
     position: relative;
     bottom: 5.5rem;
     left: 35rem;
     font-size: 2rem;
     font-family: 'Overpass Mono', monospace;
-    display: inline-block;
+    
 }
 
 .instagram{
+    display: inline-block;
     position: relative;
     bottom: 2rem;
     left: 22rem;
@@ -1064,27 +1066,36 @@ button:hover{
 
 @media screen and (max-width:500px){
 
+    
+
     .logotipo{
-        width: 5rem;
-        height: 4rem;
+        width: 4rem;
+        height: 3rem;
         position: relative;
-        left: 7rem;
+        top: 0.7rem;
+        left: 5.5rem;
         
     }
 
     .search{
+        font-size: 1.2rem;
        position: relative;
-       left: 12rem;
+       top: 1.5rem;
+       left: 7.5rem;
     }
 
     .compra{
+        font-size: 1.2rem;
         position: relative;
-        left: 13.5rem;
+        top: 1.5rem;
+        left: 9rem;
     }
 
     .usuario{
+        font-size: 1.2rem;
         position: relative;
-        left: 15rem;
+        top: 1.5rem;
+        left: 10.5rem;
     }
 
     
@@ -1092,33 +1103,29 @@ button:hover{
     
 
    .separador{
-    width: 32.5rem;
+    width: 31.2rem;
    }
 
     .instagram{
         position: relative;
-       left: 2rem;
+     left: 0.1rem;
        top: 11rem;
     }
 
     .metodosde-pago{
         position: relative;
-      left: 3rem;
+      left: 0.1rem;
       top: 6rem;
       
       
     }
 
-    .pagosContainer{
-       
-        position: relative;
-        top: 6rem;
-    }
+    
 
     .redes-sociales{
         
         position: relative;
-        left: 3rem;
+        left: 0.1rem;
         top: 10rem;
     }
 
@@ -1130,7 +1137,7 @@ button:hover{
 
     .imgPortada{
         margin-top: 3rem;
-        width: 32.8rem;
+        width: 31.22rem;
         height: 16rem;
         position: relative;
         bottom: 3rem;
@@ -1141,6 +1148,7 @@ button:hover{
         bottom: 9rem;
         color: white;
         font-size: 3rem;
+        overflow: hidden;
     }
 
     .textAlignPreguntasFrecuentes{
@@ -1159,11 +1167,13 @@ button:hover{
    
 
 .gmail_responsive{
+    display: inline-block;
     position: relative;
     top: 4.3rem;
 }
 
 .numero_responsive{
+    display: inline-block;
     position: relative;
     top: 3rem;
 
@@ -1239,6 +1249,31 @@ li a:hover, li.active{
 header{
     height: 6rem;
 }
+
+.soporte{
+    display: inline-block;
+    position: relative;
+    left: 0rem;
+    font-size: 2rem;
+    
+}
+
+.flecha_responsive{
+    position: relative;
+   right: 18rem;
+   top: 4rem;
+}
+
+.preguntas_responsive{
+    position: relative;
+   top: 5rem;
+   right: 7rem;
+}
+
+.visa{
+    display: inline-block;
+}
+
 
 
 }
