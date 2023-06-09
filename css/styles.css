@@ -1154,12 +1154,11 @@ button:hover{
     .textAlignPreguntasFrecuentes{
         position: relative;
         bottom: 3rem;
-        right: 31rem;
+        right: 33rem;
     }
 
     .accordion{
-        width: 25rem;
-        
+        width: 20rem;
     } 
 
    
