@@ -1100,11 +1100,6 @@ button:hover{
     }
 
     
-       
-    
-
-   
-
     .instagram{
         position: relative;
      left: 0.1rem;
@@ -1119,8 +1114,6 @@ button:hover{
       
     }
 
-    
-
     .redes-sociales{
         
         position: relative;
@@ -1128,11 +1121,11 @@ button:hover{
         top: 10rem;
     }
 
-   .footer_responsive{
+   /* .footer_responsive{
     display: flex;
     flex-direction: column;
     
-   }
+   } */
 
     .imgPortada{
         margin-top: 3rem;
@@ -1162,30 +1155,30 @@ button:hover{
    
 
    
-
-.gmail_responsive{
+.gmail{
     display: inline-block;
     position: relative;
     top: 4.3rem;
+
 }
 
-.numero_responsive{
+.numero{
     display: inline-block;
     position: relative;
     top: 3rem;
-
 }
 
-.phone_responsive{
+.phone{
     position: relative;
-    top: 4.5rem;
+    top: 4.5rem; 
 }
 
-.mail_responsive{
+.mail{
     position: relative;
     right: 20rem;
-   top: 6rem;
+   top: 6rem; 
 }
+
 
 .textPortadaPoliticaDeDevoluciones{
     position: relative;
@@ -1256,17 +1249,17 @@ header{
     
 }
 
-.flecha_responsive{
+.flecha{
     position: relative;
    right: 18rem;
    top: 4rem;
 }
 
-.preguntas_responsive{
+.preguntas {
     position: relative;
-   top: 5rem;
-   right: 7rem;
+    right: 7rem; 
 }
+
 
 .visa{
     display: inline-block;
