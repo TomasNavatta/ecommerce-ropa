@@ -1072,30 +1072,31 @@ button:hover{
         width: 4rem;
         height: 3rem;
         position: relative;
-        top: 0.7rem;
+        bottom: 0.5rem;
         left: 5.5rem;
         
     }
 
+   
+
     .search{
         font-size: 1.2rem;
        position: relative;
-       top: 1.5rem;
-       left: 7.5rem;
+       
+       left: 8.3rem;
     }
 
     .compra{
         font-size: 1.2rem;
         position: relative;
-        top: 1.5rem;
-        left: 9rem;
+        
+        left: 9.8rem;
     }
 
     .usuario{
         font-size: 1.2rem;
         position: relative;
-        top: 1.5rem;
-        left: 10.5rem;
+        left: 11.3rem;
     }
 
     
@@ -1242,12 +1243,13 @@ li a:hover, li.active{
 }
 
 .menu{
+    font-size: 1.5rem;
     position: relative;
-    top: 0.7rem;
+    bottom: 0.5rem
 }
 
 header{
-    height: 6rem;
+    height: 4rem;
 }
 
 .soporte{
