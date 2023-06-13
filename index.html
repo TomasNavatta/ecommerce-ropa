@@ -5,67 +5,182 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>menchys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
 </head>
 <body>
     <header>
-        <nav>
-        <div>
+           <nav>
+          <input type="checkbox" id="check"> 
+          <label for="check" class="checkbtn">
+           <i class="fas fa-bars menu"></i>
+          </label>
             <a href="https://tomasnavatta.github.io/ecommerce-ropa/">
-                <img class="logotipo" src="./img/logo_transparent.png" alt="logo menchys">
+                <img class="logotipo" src="../img/logo_transparent.png" alt="logo menchys">
             </a>
             <i class='bx bx-search-alt-2 search'></i><i class='bx bxs-cart compra'></i><i class='bx bx-user usuario'></i>
             <h1>
                 <a href="https://tomasnavatta.github.io/ecommerce-ropa/" rel="home"></a>
             </h1>
                 </div>
-               
                     <ul class="sizeul">
-                        <li><a class="colorMarcas">marcas </a></li>
-                        <li><a href="./pages/categorias.html">categorias</a></li>
-                        <li><a href="./pages/nosotros.html">nosotros</a></li>
-                        <li><a href="./pages/contacto.html">contacto</a></li>
+                      <li><a class="colorMarcas">marcas </a>
+                        <ul class="menu_vertical">
+                          <li><a href="#"> Essentials</a> </li>
+                          <li><a href="#">Stussy</a></li>
+                          <li><a href="#">Palm Angels</a></li>
+                          <li><a href="#">Jordan</a></li>
+                          <li><a href="#">Supreme</a></li>
+                          <li><a href="#">The North Face</a></li>
+                          <li><a href="#">Off-Whitte</a></li>
+                          <li><a href="#">Drew</a></li>
+                      </ul>
+                    </li>
+                        <li><a href="../pages/categorias.html">categorias</a>
+                          <ul class="menu_verticalb">
+                            <div class="sub_menu_Calzado">
+                                <li><a href="#"> Calzado</a> </li>
+                            <li><a href="#">Zapatillas</a></li>
+                            </div>
+                            <div class="sub_menu_Indumentaria">
+                                <li><a href="#">Indumentaria</a></li>
+                                <li><a href="#">Remeras</a></li>
+                                <li><a href="#">Camperas</a></li>
+                                <li><a href="#">Swatshirts</a></li>
+                                <li><a href="#">Hoodies</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Pantalones</a></li>
+                            </div>
+                            <div class="sub_menu_Accesorios">
+                                <li><a href="#">Acesorrios</a></li>
+                                <li><a href="#">Gorras</a></li>
+                                <li><a href="#">Cinturones</a></li>
+                                <li><a href="#">Billetera</a></li>
+                            </div>
+                        </ul>
+                      </li>
+                        <li><a href="../pages/nosotros.html">nosotros</a></li>
+                        <li><a href="../pages/contacto.html">contacto</a></li>
                     </ul>
                 </nav>
-
-        </div>
+       
     </header>
     <main>
-        <img class="portada" src="./img/menchys 2.png" alt="buzos essentials con logotipo de la marca"> 
+        <img class="portada" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="800"
+         src="./img/menchys 2.png" alt="buzos essentials con logotipo de la marca"> 
         <section>
-            <div>
+            <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">>
                <h2> productos destacados</h2>
             </div>  
-            <article class="cardContainer">
-                <div class="card">
-                    <img class="campera-northface" src="./img/905909_00.png" alt="campera The North Face x KAWS">
-                       <p>KAWS x The North Face Retro 1996 Nuptse Jacket</p>
-               </div>
-               <div class="card">
-                        <img class="buzo-offwhite" src="./img/OFF-WHITETapeDiagArrowsHoodieBlackBeige_600x.png" alt="buzo off-white">
-                        <p class="aline-text">Off-White Tape Diag Arrows Hoodie</p>
-               </div>
-               <div class="card">
-                        <img class="remera-stussy" src="./img/nike-x-stussy-apparel-accessories-collection-release_1 (1).png" alt="remera nike x stussy">
-                        <p class="alineacion-texto">Nike x Stussy The Wide World Tribe T-Shirt</p>
-               </div>
-               <div class="card">
-                        <img class=" gorra-supreme" src="./img/Supreme-New-Era-Box-Logo-Beanie-FW18-Black (1) (2).png" alt="gorra supreme">
-                        <p class="text-aline">Supreme New Era Box Logo Beanie</p>
-               </div>
+            <article>
+                <div class="splide">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="splide__slide" >
+                                <div class="img_box " data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
+                                    <img class="sweatpantEssentialsSeal" src="../img/Fear-Of-God-Essentials-Sweatpant-Seal.png" alt="Sweatpant Essentials Seal">
+                                  <p class="textSweatpantEssentialsSeal">Sweatpant Essentials Seal
+                                    <br>
+                                    $120.00</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box"  data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
+                                    <img class="hoodieOffWhiteTapeDiagArrowsBlackBeige" src="../img/OFF-WHITE-Tape-Diag-Arrows-Hoodie-Black-Beige.png" alt="Hoodie Off-White Tape Diag Arrows Black/Beige">
+                                  <p class="textHoodieOffWhiteTapeDiagArrowsBlackBeige">Hoodie Off-White Tape Diag Arrows Black/Beige
+                                    <br>
+                                    $550.00</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box"  data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
+                                    <img class="hoodieSupremeBandanaBoxLightBlue" src="../img/Supreme-Bandana-Box-Logo-Hooded-Sweatshirt-Light-Blue.png" alt="Hoodie Supreme Bandana Box Light Blue">
+                                    <p class="textHoodieSupremeBandanaBoxLightBlue">Hoodie Supreme Bandana Box Light Blue
+                                     <br>
+                                     $350.00</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box"  data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
+                                    <img class="sweatpantNikexStussyInternationalBlack" src="../img/Nike-x-Stussy-International-Sweatpants-Black.png" alt="Sweatpant Nike x Stussy International Black">
+                                 <p class="textSweatpantNikexStussyInternationalBlack">Sweatpant Nike x Stussy International Black
+                                    <br>
+                                    $110.00</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box"  data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
+                                    <img class="hoodieDrewHouseMascotBlack" src="../img/drew-house-mascot-hoodie-fw21-black.png" alt="Hoodie Drew House Mascot Black">
+                                    <p class="textHoodieDrewHouseMascotBlack">Hoodie Drew House Mascot Black
+                                      <br>
+                                      $146.00</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box"  data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
+                                    <img class="sweatpantsJordanxJBalvinBlue" src="../img/Jordan-x-J-Balvin-Sweatpants-Blue.png" alt="Sweatpants Jordan x J Balvin Blue">
+                                    <p class="textSweatpantsJordanxJBalvinBlue">Sweatpants Jordan x J Balvin Blue
+                                      <br>
+                                      $125.00</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box"  data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
+                                    <img class="hoodieEssentialsWood " src="../img/Fear-of-God-Essentials-Hoodie-Wood.png" alt="Hoodie Essentials Wood">
+                                 <p class="textHoodieEssentialsWood">Hoodie Essentials Wood
+                                    <br>
+                                    $115.00</p>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="img_box"  data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
+                                    <img class="hoodiePalmAngelsKillBear" src="../img/Palm-Angels-Kill-Bear-Hoodie-Black.png" alt="Hoodie Palm Angels Kill Bear">
+                                    <p class="textHoodiePalmAngelsKillBear">Hoodie Palm Angels Kill Bear
+                                       <br>
+                                       $320.00</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
             </article>
        </section>
        <section>
         <article>
-            <div class="marcas">
+            <div class="marcas" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
                 <img class="logo-jordan" src="./img/Air-Jordan-logo.png" alt="logo jordan">
                 <img class="logo-stussy" src="./img/Logo-Stussy.png" alt="logo stussy">
                 <img class="logo-essentials" src="./img/essentials-logo-freelogovectors.net_.webp" alt="logo essentials">
@@ -76,43 +191,55 @@
         </article>
           </section>
           <section class="ropaContainer">
-            <div>
+            <div data-aos="fade-up"
+            data-aos-duration="1000">
               <a href="./pages/calzado.html"><img class="imagen-calzado" src="./img/Air-Jordan-1-High-OG-University-Blue-.jpg" alt="zapatillas jordan">
                 <p class="calzado">calzado</p></a> 
             </div>
  
-           <div>
+           <div data-aos="fade-up"
+           data-aos-duration="1000">
              <a href="./pages/indumentaria.html"> <img class="imagen-indumentaria" src="./img/d86eb8bd-0d85-4b84-9499-37b019e50d24_03-09-21_FearOfGod_DesktopSlideshow_1600x900.avif" alt="indumentaria essentials">
                <p class="indumentaria">indumentaria</p></a> 
            </div>
             
-           <div>
+           <div data-aos="fade-up"
+           data-aos-duration="1000">
             <a href="./pages/accesorios.html"><img class="imagen-accesorios" src="./img/92dfbc42755ca71299fd8cb3780afe06.jpg" alt="accesorios supreme">
              <p class="accesorios">accesorios</p></a>
            </div>
        </section>
        <section>
-        <article>
+        <article data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000">
             <h3 class="quienes-somos">QUIENES SOMOS</h3>
             <p class="texto-quienesomos">Somos una tienda que vende ropa importada en la Argentina. Traemos cualquier <br>
                prenda o sneakers que nos encarguen. En MENCHYS vas a econtrar <br>
                 productos exclusivos y 100% originales. </p>
+                <button class="estilosButton">
+                    <a href="./pages/nosotros.html"><p>CONOCENOS</p></a>
+                </button>
         </article>
       </section>
        <section>
         <article class="imgConteiner">
-            <div>
+            <div data-aos="fade-up"
+            data-aos-duration="1000">
                 <img class="imagen-essentials"  src="./img/S9dbfcc812cd74260a1a51f2cccb80d7bh.webp" alt="pantalones esentials">
             </div>
-            <div>
+            <div data-aos="fade-up"
+            data-aos-duration="1000">
                 <img class="imagen-jordan"  src="./img/air-jordan-retro-1-sports-shoes-500x500.webp" alt="zapatillas jordan">
             </div>
-            <div>
+            <div data-aos="fade-up"
+            data-aos-duration="1000">
                 <img class="imagen-supreme"  src="./img/73040b254302e0ecbb59465aa6587aab2bc5f659-1950x1800.webp" alt="hoodies supreme">
              </div>
         </article>
        </section>
-       <section class="iconContainer">
+       <section class="iconContainer" data-aos="fade-up"
+       data-aos-duration="600">
         <i class='bx bxs-check-shield productos' ></i>
         <p class="exclusivos">variedad de productos exclusivos</p>
         <i class='bx bxs-truck camion'></i>
@@ -124,32 +251,66 @@
     </section>
     </main>
     <hr class="separador">
-    <footer>
-        <div class="soporteContainer">
-            <h3 class="soporte">soporte</h3>
-            <a class="preguntas" href="./pages/preguntasFrecuentes.html">preguntas frecuentes</a>
-            <i class='bx bx-chevron-right flecha' ></i>
-            <a class="devoluciones" href="./pages/politicaDeDevoluciones.html">politica de devoluciones</a>
-            <i class='bx bx-chevron-right flecha-right' ></i>
-            <i class='bx bx-envelope mail' ></i>
-            <p class="gmail">menchys@gmail.com</p>
-            <i class='bx bxs-phone phone'></i>
-            <p class="numero">11 5738-3752</p>
-        </div>
-        <h3 class="metodosde-pago">metodos de pago</h3>
-        <div class="pagosContainer">
-            <i class='bx bxl-visa visa' ></i>
-            <i class='bx bxl-mastercard mastercard' ></i>
-            <i class='bx bxl-paypal paypal' ></i>
-        </div>
-        <h3 class="redes-sociales">redes sociales</h3>
-        <i class='bx bxl-instagram instagram' ></i>
-        <p class="copyright">Copyright © Menchys 2023</p>
-        
+    <footer >
+        <h3 class="soporte">soporte</h3>
+        <a class="preguntas " href="../pages/preguntasFrecuentes.html">preguntas frecuentes</a>
+        <i class='bx bx-chevron-right flecha ' ></i>
+        <a class="devoluciones" href="../pages/politicaDeDevoluciones.html">politica de devoluciones</a>
+        <i class='bx bx-chevron-right flecha-right' ></i>
+        <i class='bx bx-envelope mail ' ></i>
+        <p class="gmail ">menchys@gmail.com</p>
+        <i class='bx bxs-phone phone '></i>
+        <p class="numero ">11 5738-3752</p>
+    <h3 class="metodosde-pago">metodos de pago</h3>
+    
+        <i class='bx bxl-visa visa' ></i>
+        <i class='bx bxl-mastercard mastercard' ></i>
+        <i class='bx bxl-paypal paypal' ></i>
+    
+    <h3 class="redes-sociales ">redes sociales</h3>
+    <i class='bx bxl-instagram instagram ' ></i>
+    <p class="copyright">Copyright © Menchys 2023</p>
+    
 
-    </footer>
+</footer>
+<footer class="footerResponsive" >
+  <h3 class="soporte">soporte</h3>
+  <a class="preguntas " href="../pages/preguntasFrecuentes.html">
+  <i class='bx bx-chevron-right flecha ' >preguntas frecuentes</i></a>
+  <a class="devoluciones" href="../pages/politicaDeDevoluciones.html">
+  <i class='bx bx-chevron-right flecha-right' >politica de devoluciones</i></a>
+  <i class='bx bx-envelope mail ' >menchys@gmail.com</i>
+  <p class="gmail "></p>
+  <i class='bx bxs-phone phone '>11 5738-3752</i>
+  <p class="numero "></p>
+<h3 class="metodosde-pago">metodos de pago</h3>
+
+  <i class='bx bxl-visa visa' ></i>
+  <i class='bx bxl-mastercard mastercard' ></i>
+  <i class='bx bxl-paypal paypal' ></i>
+
+<h3 class="redes-sociales ">redes sociales</h3>
+<i class='bx bxl-instagram instagram ' ></i>
+<p class="copyright">Copyright © Menchys 2023</p>
+
+
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+        var splide = new Splide( '.splide', {
+  perPage: 4,
+  pagination: false,
+  autoplay: true,
+  rewind : true,
+} );
+
+splide.mount();
+    </script>
 </body>
 </html>

@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
+
 header{
     background-color: white;
-    width: 119.5rem;
+    width: 100%;
     height: 9rem;
     position: fixed;
 
-    z-index: 1;
+    z-index: 10;
 }
 
 
@@ -33,6 +34,7 @@ header{
 
 
 .logotipo{
+    z-index: 11;
     text-align: center;
     display: inline-block;
    position: relative;
@@ -79,6 +81,73 @@ header{
     list-style-type: none;
 }
 
+.menu_vertical{
+    line-height: 0.2rem;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 20rem;
+    height: 23rem;
+    background-color: white;
+    z-index: 10;
+    
+}
+
+header nav ul li ul{
+    padding-top: 10rem;
+    padding-right: 7rem;
+    
+    
+}
+
+.sizeul li:hover .menu_vertical{
+    display: block;
+
+}
+
+.sub_menu_Calzado{
+   
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   bottom: 3rem;
+}
+
+.sub_menu_Indumentaria{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15rem;
+    bottom: 7rem;
+}
+
+.sub_menu_Accesorios{
+    display: flex;
+   flex-direction: column;
+   position: relative;
+   left: 32rem;
+   bottom: 22.5rem;
+}
+
+.menu_verticalb{
+    line-height: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    display: none;
+    list-style: none;
+    z-index: 10;
+    width: 50rem;
+    height: 20rem;
+    background-color: white;
+    
+}
+.sizeul li:hover .menu_verticalb{
+    display: block;
+
+}
+
+
 li{
     display: inline-block;
     padding-left: 2rem;
@@ -105,6 +174,7 @@ li a{
     color: red;
 }
 
+
 .portada{
     height: 39.65rem;
     margin-top: 8rem;
@@ -114,81 +184,113 @@ li a{
 h2{
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
     font-size: 2rem;
     font-family: 'Overpass Mono', monospace;
 }
 
-.card{
-    width: 100%;
-    height: 100%;
-    border: none;
+.img_box{
+    width: 15rem;
 }
-
-.cardContainer{
+.splide__track{
+    
     display: flex;
-    justify-content: space-around;
-    font-family: 'Carlito', sans-serif;
-    margin-left: 12rem;
-    position: relative;
-    bottom: 13rem;
+    align-items: center;
+    
 }
 
-.campera-northface{
-    width: 23rem;
-    height: 23rem;
+.sweatpantEssentialsSeal{
+    width: 25rem;
+    position: relative;
+    right: 3rem;
+}
+.textSweatpantEssentialsSeal{
+    text-align: center;
+    padding-top: 3rem;
+    position: relative;
+    left: 2rem;
+}
+.hoodieOffWhiteTapeDiagArrowsBlackBeige{
+    width: 25rem;
+   
+}
+.textHoodieOffWhiteTapeDiagArrowsBlackBeige{
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+    left: 5rem;
 }
 
-.buzo-offwhite{
-    width: 18rem;
-    height: 20rem;
+.hoodieSupremeBandanaBoxLightBlue{
+    width: 25rem;
+   
+}
+.textHoodieSupremeBandanaBoxLightBlue{
+    text-align: center;
+    padding-top: 2rem;
     position: relative;
-    top: 2rem;
+    left: 5rem;
+}
+.sweatpantNikexStussyInternationalBlack{
+    width: 25rem;
+    
+}
+.textSweatpantNikexStussyInternationalBlack{
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+    left: 5rem;
+}
+.hoodieDrewHouseMascotBlack{
+    width: 25rem;
+   
+}
+.textHoodieDrewHouseMascotBlack{
+    text-align: center;
+    padding-top: 3rem;
+    position: relative;
+    left: 5rem;
+}
+.sweatpantsJordanxJBalvinBlue{
+    width: 25rem;
+}
+.textSweatpantsJordanxJBalvinBlue{
+    text-align: center;
+    padding-top: 3rem;
+    position: relative;
+    left: 5rem;
+}
+.hoodieEssentialsWood{
+    width: 25rem;
+    
    
 }
 
-.aline-text{
+.textHoodieEssentialsWood{
+    padding-top: 3rem;
+    text-align: center;
     position: relative;
-    top: 3rem;
-     
-    
+    left: 5rem;
+}
+.hoodiePalmAngelsKillBear{
+    width: 25rem;
+   
+}
+.textHoodiePalmAngelsKillBear{
+    padding-top: 3rem;
+    text-align: center;
+    position: relative;
+    left: 5rem;
 }
 
-.remera-stussy{
-    width: 29rem;
-    height: 26rem;
-    position: relative;
-    right: 8rem;
-    bottom: 2rem;
-}
-
-.alineacion-texto{
-    position: relative;
-    bottom: 2.9rem;
-    right: 4rem;
-    
-}
-
-.gorra-supreme{
-    width: 21rem;
-    height: 13rem;
-    position: relative;
-    top: 6rem;
-    right: 8rem;
-}
-
-.text-aline{
-    position: relative;
-    top:10rem;
-    right: 6rem;
-
-}
 
 .marcas{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 4rem;
     position: relative;
-    bottom: 4rem;
+    top: 6rem;
+
 }
 
 .logo-jordan{
@@ -300,6 +402,30 @@ section div a{
 
 }
 
+main section article button a:hover{
+    color: white;
+}
+.estilosButton a{
+    color: white;
+}
+.estilosButton{
+    padding: 0.3rem;
+    border-style: solid;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    font-family: 'Carlito', sans-serif;
+    border-radius: 0.7rem;
+    position: relative;
+    top: 3rem;
+    left: 54rem;
+}
+
+section article button a p{
+    position: relative;
+    top: 0.5rem;
+}
+
 .imgConteiner{
     display: flex;
     margin-top: 15rem;
@@ -384,8 +510,13 @@ section div a{
 }
 
 footer{
+   text-align: center;
     margin-top: 2rem;
 
+}
+
+.footerResponsive{
+    display: none;
 }
 .soporteContainer{
     display: flex;
@@ -393,6 +524,7 @@ footer{
     display: inline-block;
 }
 .soporte{
+    display: inline-block;
     position: relative;
     left: 5rem;
     font-size: 2rem;
@@ -402,8 +534,9 @@ footer{
 
 .preguntas{
     position: relative;
-    top: 1.5rem;
-    left: 6rem;
+    top: 3rem;
+    right: 2rem;
+    
     font-size: 1rem;
     font-family: 'Carlito', sans-serif;
     color: black;
@@ -411,8 +544,8 @@ footer{
 
 .flecha{
     position: relative;
-    top: 1.9rem;
-    right: 6rem;
+    top: 3.5rem;
+    right: 13.5rem;
     font-size: 1.6rem;
     font-weight: bold;
     font-weight: bolder 3rem;
@@ -420,8 +553,8 @@ footer{
 
 .devoluciones{
     position: relative;
-    top: 3.5rem;
-    right: 5.5rem;
+    top: 5rem;
+    right: 13.5rem;
     font-size: 1rem;
     font-family: 'Carlito', sans-serif;
     color: black;
@@ -429,8 +562,8 @@ footer{
 
 .flecha-right{
     position: relative;
-    top: 4rem;
-    right: 18.7rem;
+    top: 5.5rem;
+    right: 26.3rem;
     font-size: 1.6rem;
     font-weight: bold;
     font-weight: bolder 3rem;
@@ -438,42 +571,43 @@ footer{
 
 .mail{
     position: relative;
-    top: 6.27rem;
-    right: 20rem;
+    top: 7.2rem;
+    right: 28rem;
     font-size: 1.2rem;
     font-weight: bold;
     font-weight: bolder 3rem;
 }
 
 .gmail{
+    display: inline-block;
     position: relative;
-    top: 4.5rem;
-    left: 6rem;
+    top: 7rem;
+    right: 27.8rem;
     font-size: 1rem;
     font-family: 'Carlito', sans-serif;
 }
 
 .phone{
     position: relative;
-    top: 5.5rem;
-    left: 4.3rem;
+    top: 9rem;
+    right: 39.3rem;
     font-size: 1.2rem;
     font-weight: bold;
     font-weight: bolder 3rem;
 }
 
 .numero{
+    display: inline-block;
     position: relative;
-    top: 4rem;
-    left: 6rem;
+    top: 8.8rem;
+    right: 39rem;
     font-size: 1rem;
     font-family: 'Carlito', sans-serif;
 }
 
 .metodosde-pago{
     position: relative;
-    bottom: 5.5rem;
-    left: 20rem;
+    bottom: 0.7rem;
     font-size: 2rem;
     font-family: 'Overpass Mono', monospace;
     display: inline-block;
@@ -481,31 +615,37 @@ footer{
 
 .pagosContainer{
     position: relative;
-    bottom: 2rem;
-    left: 6rem;
+    top: 7rem;
+   right: 10rem;
     display: inline-block;
 }
 
 .visa{
     position: relative;
+    top: 3rem;
+    right: 15rem;
     font-size: 3.5rem;
 }
 
 .mastercard{
     position: relative;
+    top: 3rem;
+    right: 15rem;
     font-size: 3rem;
 }
 
 .paypal{
     position: relative;
+    top: 3rem;
+    right: 15rem;
     font-size: 3rem;
 }
 
 .redes-sociales{
     display: inline-block;
     position: relative;
-    bottom: 5.5rem;
-    left: 35rem;
+    bottom: 0.7rem;
+    left: 16rem;
     font-size: 2rem;
     font-family: 'Overpass Mono', monospace;
     
@@ -514,15 +654,15 @@ footer{
 .instagram{
     display: inline-block;
     position: relative;
-    bottom: 2rem;
-    left: 22rem;
+    top: 3rem;
+    left: 3rem;
     font-size: 3rem;
 }
 
 .copyright{
     position: relative;
-    top: 10rem;
-    right: 68rem;
+    top: 15rem;
+    right: 72rem;
     font-size: 0.9rem;
     font-family: 'Carlito', sans-serif;
     display: inline-block;
@@ -530,9 +670,8 @@ footer{
 }
 
 .separadorHeader{
-    width: 71rem;
+    width: 100%;
     position: relative;
-    left: 49.97rem;
     bottom: 4.6rem;
     
 }
@@ -541,92 +680,153 @@ footer{
     display: flex;
 }
 
+.containerContact{
+   display: flex;
+}
+.containerForm{
+    
+    color: white;
+    font-family: 'Quicksand', sans-serif;;
+   
+   margin-top: 8rem;
+}
+
+
+
+.content{
+   
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 1.5em 0 1.5em;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span{
+    font-weight: bold;
+    color: #8E1515;
+}
+
+.contact-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form{
+    background: #3F4045;
+    margin-top: 1rem;
+    width: 100%;
+    height: 36rem;
+    
+}
+
+.content h1{
+    color: white;
+}
+form{
+    position: relative;
+    bottom: 15rem;
+    left: 1rem;
+}
+
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block{
+    grid-column: 1 / 3;
+}
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.contact-form form button{
+    background: white;
+    color: #000;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus{
+    background: black;
+    color: white;
+    transition: background-color 1s ease-out;
+    outline: 0;
+    
+}
+.contact-info{
+    height: 26rem;
+    width: 100%;
+    background: #333333;
+    
+    
+
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li{
+    padding: .3em;
+}
+
+
 .portadaContacto{
-    height: 70rem;
+    height: 68rem;
     width: 50rem;
 }
 
-.contacto{
-    position: relative;
-    left: 5rem;
-    margin-top: 12rem;
-    font-size: 2.5rem;
-    font-family: 'Overpass Mono', monospace;
-}
-
-.contactanos{
-    margin-top: 16rem;
-    width: 53rem;
-    position: relative;
-    right: 10rem;
-    font-size: 1.5rem;
-    font-family: 'Carlito', sans-serif;
-    display: block
-    
-}
-
-.mailContacto{
-    margin-top: 22rem;
-    position: relative;
-    right: 59rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    font-weight: bolder 3rem;
-}
-
-.gmailContacto{
-    margin-top: 22rem;
-    position: relative;
-    right: 58.5rem;
-    font-family: 'Carlito', sans-serif;
-}
-
-.formulario{
-    margin-top: 24rem;
-    position: relative;
-    right: 42rem;
-    
-
-}
 
 form{
-    padding-top: 20rem;
+    padding-top: 16rem;
     position: relative;
     right:10rem;
     font-family: 'Carlito', sans-serif;
     
-    
 }
 
-.nombre{
-    width: 35rem;
-    height: 2rem;
-    display: block;
-}
-
-
-.asunto{
-    width: 35rem;
-    height: 2rem;
-    display: block;
-}
-
-.mensaje{
-    width: 35rem;
-    height: 2rem;
-    display: block;
-}
-
-.enviar{
-    height: 2rem;
-    width: 5rem;
-    color: white;
-    background-color: black;
-    border-radius: 2rem;
-}
 
 .maps{
-    margin-top: 3rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: 15rem;
+}
+
+.separadorContacto{
+    margin: 0;
 }
 
 .imgPortada{
@@ -902,6 +1102,99 @@ button:hover{
     left: 1.5rem;
 }
 
+.sizeImgJordanWhiteOreo{
+    width: 25rem;
+    position: relative;
+    right: 8rem;
+}
+
+.textAlignJordanWhiteOreo{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    position: relative;
+    right: 10rem;
+}
+
+.sizeImgJordan1RetroHighDefiant{
+    width: 25rem;
+}
+.textAlignJordan1RetroHighDefiant{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+.sizeImgJordan1RetroYellowOchre{
+    width: 25rem;
+    position: relative;
+    left: 8rem;
+    
+}
+
+.textAlignJordan1RetroYellowOchre{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    position: relative;
+    left: 6rem;
+}
+
+.sizeImgJordan1RetroHighBredToe{
+    width: 25rem;
+    position: relative;
+    right: 8rem;
+}
+
+.textAlignJordan1RetroHighBredToe{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    position: relative;
+    right: 10rem;
+}
+
+.sizeImgAdidasYeezyBoost350V2Onyx{
+    width: 25rem;
+}
+.textAlignAdidasYeezyBoost350V2Onyx{
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+    right: 1rem;
+}
+
+.sizeImgAdidasYeezyBoost350V2CoreBlackWhite{
+    width: 25rem;
+    position: relative;
+    left: 8rem;
+}
+.textAlignAdidasYeezyBoost350V2CoreBlackWhite{
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+    left: 8rem;
+}
+
+.sizeImgJordan1MidSEDarkChocolate{
+    width: 25rem;
+    position: relative;
+    right: 37rem;
+}
+
+.textAlignJordan1MidSEDarkChocolate{
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+    right: 39rem;
+
+}
+
+ .spaceAround{
+    display: flex;
+    justify-content: space-around;
+ }
+
 .textPortadaIndumentaria{
     text-align: center;
     position: relative;
@@ -1063,73 +1356,253 @@ button:hover{
 
 
 
+.pagination{
+    justify-content: center;
+    padding-bottom: 10rem;
+    position: relative;
+    top: 14rem;
+}
+
+.sizeImngTshirtCactusJackxDior{
+    width: 25rem;
+}
+
+.textAlignTshirtCactusJackxDior{
+    padding-top: 4rem;
+}
+
+.sizeImngTshirtDrewHouse3dSherman{
+    width: 25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sizeImngHoodieOffWhiteTapeDiagArrowsBlackBeige{
+    width: 25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sizeImngHoodiePalmAngelsKillBear{
+    width: 27rem;
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+}
+
+.sizeImngSweatpantsJordanxJBalvinBlue{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 3.5rem;
+}
+
+.sizeImngShortEssentialsMossGoat{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 4.5rem;
+}
+
+.sizeImngTShirtStussyBasicBlack{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+}
+
+.sizeImngHoodieDrewHouseMascotBlack{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+}
+
+.sizeImngTShirtNikexStussyWhite{
+    width: 24rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImngTShirtDrewHouseFullMoonBlack{
+    width: 21rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImngHoodieSupremeBandanaBoxLightBlue{
+    width: 25rem;
+    padding-top: 13.5rem;
+    padding-bottom: 2rem;
+}
+
+.sizeImngTShirtNikexStussyBlack{
+    width: 22rem;
+    padding-top: 15rem;
+    padding-bottom: 2.7rem;
+}
+
+.sizeImngHoodieStussyWhite{
+    width: 25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sizeImngShortEssentialsTaupe{
+    width: 22rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.sizeImngTShirtDrewHouseSecretTeeWhite{
+    width: 25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sizeImngSwatpantsEssentialsPistachio{
+    width: 23rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImngTShirtOffWhiteSprayPrintBlack{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImngHoodieEssentialsWood{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+}
+
+.sizeImngSweatpantEssentialsSeal{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImngTShirtEssentialsTaupe{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImngDrewHouseTheordoreSketchCrewneckOffWhite{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImngSweatpantNikexStussyInternationalBlack{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImngTShirtdrewHouseSketchMascotTeeWhite{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImngSweatpantEssentialsWood{
+    width: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+.sizeImgBilleteraOffWhite{
+    width: 20rem;
+    position: relative;
+    bottom: 12rem;
+}
+.textAlignBilleteraOffWhite{
+    position: relative;
+    bottom: 12rem;
+}
+.sizeImgCinturonSupreme{
+    width: 20rem;
+    /* padding-top: 12rem; */
+    margin-left: 2rem;
+}
+
+.textAlignCinturonSupreme{
+   padding-top: 2.5rem;
+}
+
+.sizeImgBilleteraSpremexLouisVuitton{
+    width: 17rem;
+    /* padding-top: 12rem; */
+}
+
+.textAlignBilleteraSpremexLouisVuitton{
+    padding-top: 3rem;
+}
+
+.sizeImgbilleterasupreme{
+    width: 20rem;
+    /* padding-top: 8rem; */
+    padding-right: 2rem;
+}
+
+.sizeImgGorraJordan{
+    width: 20rem;
+    /* padding-top: 9rem; */
+}
+
+.textAlignGorraJordan{
+    padding-top: 2rem;
+}
+
+.sizeImgGorraPalmAngels{
+    width: 19rem;
+    /* padding-top: 8rem; */
+}
+
+.textAlignGorraPalmAngels{
+    position: relative;
+    bottom: 1rem;
+}
+
+.sizeImgGorraSupreme{
+    width: 23rem;
+    padding-top: 6rem;
+    position: relative;
+    right: 9rem;
+}
+
+.textAlignGorraSupreme{
+    position: relative;
+    bottom: 1.8rem;
+    right: 10rem;
+
+}
+
+.sizeImgGorroSupremeNewEraBoxLogo{
+    width: 24rem;
+    padding-top: 11rem;
+    position: relative;
+    right: 21rem;
+}
+
+.textAlignGorroSupremeNewEraBoxLogo{
+    padding-top: 2rem;
+    position: relative;
+    right: 21rem;
+}
 
 @media screen and (max-width:500px){
 
     
 
-    .logotipo{
-        width: 4rem;
-        height: 3rem;
-        position: relative;
-        bottom: 0.5rem;
-        left: 5.5rem;
-        
-    }
 
-   
 
-    .search{
-        font-size: 1.2rem;
-       position: relative;
-       
-       left: 8.3rem;
-    }
 
-    .compra{
-        font-size: 1.2rem;
-        position: relative;
-        
-        left: 9.8rem;
-    }
 
-    .usuario{
-        font-size: 1.2rem;
-        position: relative;
-        left: 11.3rem;
-    }
 
-    
-    .instagram{
-        position: relative;
-     left: 0.1rem;
-       top: 11rem;
-    }
-
-    .metodosde-pago{
-        position: relative;
-      left: 0.1rem;
-      top: 6rem;
-      
-      
-    }
-
-    .redes-sociales{
-        
-        position: relative;
-        left: 0.1rem;
-        top: 10rem;
-    }
-
-   /* .footer_responsive{
-    display: flex;
-    flex-direction: column;
-    
-   } */
+    /* PREGUNTAS FRECUENTES */
 
     .imgPortada{
         margin-top: 3rem;
         height: 12rem;
+        width: 100%;
         position: relative;
         bottom: 3rem;
     }
@@ -1138,7 +1611,7 @@ button:hover{
         position: relative;
         bottom: 9rem;
         color: white;
-        font-size: 3rem;
+        font-size: 2rem;
         overflow: hidden;
     }
 
@@ -1149,35 +1622,14 @@ button:hover{
     }
 
     .accordion{
+       text-align: center;
         width: 20rem;
     } 
 
    
 
-   
-.gmail{
-    display: inline-block;
-    position: relative;
-    top: 4.3rem;
 
-}
-
-.numero{
-    display: inline-block;
-    position: relative;
-    top: 3rem;
-}
-
-.phone{
-    position: relative;
-    top: 4.5rem; 
-}
-
-.mail{
-    position: relative;
-    right: 20rem;
-   top: 6rem; 
-}
+         /* POLITICA DE DEVOLUCIONES */
 
 
 .textPortadaPoliticaDeDevoluciones{
@@ -1196,11 +1648,46 @@ button:hover{
 
 
 
+      /* NAVBAR */
+
+      .logotipo{
+        width: 16%;
+        height: 3rem;
+        position: relative;
+        bottom: 0.5rem;
+        left: 5.5rem;
+        
+    }
+
+   
+
+    .search{
+        width: 2%;
+        font-size: 1.2rem;
+       position: relative;
+       
+       left: 8.3rem;
+    }
+
+    .compra{
+        width: 2%;
+        font-size: 1.2rem;
+        position: relative;
+        
+        left: 9.8rem;
+    }
+
+    .usuario{
+        width: 2%;
+        font-size: 1.2rem;
+        position: relative;
+        left: 11.3rem;
+    }
 
 .checkbtn{
     display: block;
 }
-ul{
+header ul{
     position: fixed;
     width: 100%;
     height: 120vh;
@@ -1241,31 +1728,1214 @@ header{
     height: 4rem;
 }
 
-.soporte{
-    display: inline-block;
+
+
+
+
+/* CALZADO PAG 2 */
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sizeImgJordanWhiteOreo{
+    width: 70%;
+    position: relative;
+    right: 0;
+}
+
+.textAlignJordanWhiteOreo{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    position: relative;
+    right: 0rem;
+}
+
+.sizeImgJordan1RetroHighDefiant{
+    width: 70%;
+}
+.textAlignJordan1RetroHighDefiant{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.sizeImgJordan1RetroYellowOchre{
+    width: 70%;
     position: relative;
     left: 0rem;
-    font-size: 2rem;
     
 }
 
-.flecha{
+.textAlignJordan1RetroYellowOchre{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     position: relative;
-   right: 18rem;
-   top: 4rem;
+    left: 0rem;
 }
 
-.preguntas {
+.sizeImgJordan1RetroHighBredToe{
+    width: 70%;
     position: relative;
-    right: 7rem; 
+    right: 0rem;
 }
+
+.textAlignJordan1RetroHighBredToe{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    position: relative;
+    right: 0rem;
+}
+
+.sizeImgAdidasYeezyBoost350V2Onyx{
+    width: 70%;
+}
+.textAlignAdidasYeezyBoost350V2Onyx{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    position: relative;
+    right: 1rem;
+}
+
+.sizeImgAdidasYeezyBoost350V2CoreBlackWhite{
+    width: 70%;
+    position: relative;
+    left: 0rem;
+}
+.textAlignAdidasYeezyBoost350V2CoreBlackWhite{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    position: relative;
+    left: 0rem;
+}
+
+.sizeImgJordan1MidSEDarkChocolate{
+    width: 70%;
+    position: relative;
+    right: 0rem;
+}
+
+.textAlignJordan1MidSEDarkChocolate{
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+    right: 0rem;
+
+
+}
+
+.pagination{
+    padding: 0;
+    margin: 0;
+    justify-content: none;
+    padding-bottom: 0rem;
+    padding-top: 8rem;
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+}
+
+.pagination li{
+    margin-bottom: 0rem;
+
+}
+
+
+
+.textPortadaCalzado{
+    text-align: center;
+    position: relative;
+    bottom: 8rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Carlito', sans-serif;
+}
+
+
+
+
+/* FOOTER */
+
+
+
+
+.separador{
+    width: 100%;
+}
+
+footer{
+    display: none;
+}
+.footerResponsive{
+    display: block;
+}
+.soporte{
+    display: block;
+    position: relative;
+    left: 0rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace;
+    
+}
+
+.preguntas{
+    display: block;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+    color: black;
+}
+
+.flecha{
+    margin-bottom: 1rem;
+    position: relative;
+    top: 0rem;
+    
+    right: 0rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-weight: normal ;
+    
+}
+
+.devoluciones{
+    display: block;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+    color: black;
+}
+
+.flecha-right{
+    margin-bottom: 1rem;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-weight: normal ;
+}
+
+.mail{
+    margin-bottom: 0.5rem;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-weight: normal ;
+}
+
+.gmail{
+    display: block;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+}
+
+.phone{
+    margin-bottom: 1rem;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-weight: normal ;
+}
+
+.numero{
+    display: block;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+}
+
+.metodosde-pago{
+    position: relative;
+    bottom: 0rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace;
+    display: block;
+}
+
 
 
 .visa{
-    display: inline-block;
+    margin-bottom: 3rem;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 3.5rem;
+}
+
+.mastercard{
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 3rem;
+}
+
+.paypal{
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 3rem;
+}
+
+.redes-sociales{
+    display: block;
+    position: relative;
+    bottom: 0rem;
+    left: 0rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace;
+    
+}
+
+.instagram{
+    margin-bottom: 3rem;
+    display: block;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    font-size: 3rem;
+}
+
+.copyright{
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+    font-size: 0.9rem;
+    font-family: 'Carlito', sans-serif;
+    display: block;
+    padding-bottom: 3rem;
 }
 
 
+
+
+
+/* CALZADO */
+
+
+
+.sizeImgJordanBlackCat{
+    width: 70%;
+    position: relative;
+    right: 0rem;
+    
+
+}
+
+.textAlignJordanBlackCat{
+    margin-top: 2rem;
+    position: relative;
+    right: 0rem;
+}
+.sizeImgJordanOffWhite{
+    width: 70%;
+    position: relative;
+    bottom: 0rem;
+   
+    
+    
+}
+
+.textAlignJordanOffWhite{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    position: relative;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+.sizeImgJordan1Retro85{
+    width: 70%;
+    position: relative;
+    bottom: 0rem;
+   left: 0rem;
+   
+    
+}
+
+.textAlignJordan1Retro85{
+    position: relative;
+    bottom: 0rem;
+    left: 0rem;
+}
+
+.sizeImgJordanMilitaryBlack{
+    width: 70%;
+    margin-top: 0rem;
+    position: relative;
+    right: 0rem;
+   
+}
+
+.textAlignJordanMilitaryBlack{
+    margin-bottom: 4rem;
+    position: relative;
+    right: 0rem;
+    bottom: 3.5rem;
+}
+.sizeImgJordanPureMoney{
+    width: 70%;
+    margin-top: 0rem;
+    position: relative;
+    right: 0rem;
+    top: 0rem;
+   
+}
+
+.textAlignJordanPureMoney{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+}
+
+.sizeImgJordan1RetroUniversityBlue{
+    width: 70%;
+    margin-top: 0rem;
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    
+}
+
+.textAlignJordan1RetroUniversityBlue{
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+}
+
+.sizeImgJordanTravisScott{
+    width: 70%;
+    position: relative;
+    bottom: 3rem;
+    right: 0rem;
+ 
+}
+
+.textAlignJordanTravisScott{
+    position: relative;
+    bottom: 1rem;
+    top: 0rem;
+    right: 0rem;
+}
+
+.sizeImgJordanHyperRoyal{
+    width: 70%;
+    position: relative;
+    bottom: 4rem;
+    right: 0rem;
+}
+
+.textAlignJordanHyperRoyal{
+    position: relative;
+    bottom: 11.5rem;
+    right: 0rem;
+}
+
+.sizeImgJordan1RetroDarkMocha{
+    width: 70%;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+}
+
+.textAlignJordan1RetroDarkMocha{
+    position: relative;
+    top: 0rem;
+}
+
+.sizeImgJordanRoyalToe{
+    width: 70%;
+    position: relative;
+    right: 0rem;
+}
+
+.textAlignJordanRoyalToe{
+    position: relative;
+    right: 0rem;
+    bottom: 0rem;
+}
+.sizeImgYeezyBlackRed{
+    width: 70%;
+    position: relative;
+    right: 0rem;
+}
+
+.textAlignYeezyBlackRed{
+    margin-bottom: 4rem;
+    position: relative;
+    right: 0rem;
+    bottom: 2rem;
+}
+
+.sizeImgYeezyCream{
+    width: 70%;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+}
+
+.textAlignYeezyCream{
+    margin-top: 2rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+}
+
+
+
+
+
+    /* categorias */
+
+    .separadorHeader{
+        display: none;
+    }
+
+
+    .textPortadaCategorias{
+        text-align: center;
+        position: relative;
+        bottom: 8rem;
+        font-size: 2rem;
+        color: white;
+        font-family: 'Carlito', sans-serif;
+    
+    }
+
+
+    .ropaContainer{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        margin-top: 0rem;
+        font-family: 'Overpass Mono', monospace;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+
+    .imagen-calzado{
+        height: 20rem;
+        width: 100%;
+    }
+
+    .calzado{
+        position: relative;
+        bottom: 10rem;
+    }
+    
+    .imagen-indumentaria{
+        height: 20rem;
+        width: 100%;
+    }
+    
+    .indumentaria{
+        position: relative;
+        bottom: 10rem;
+    }
+    
+    .imagen-accesorios{
+        height: 20rem;
+        width: 100%;
+    }
+    
+    .accesorios{
+        position: relative;
+        bottom: 12rem;
+    }
+
+
+
+
+    /* contacto */
+
+
+    .portadaContacto{
+        display: none;
+    }
+
+
+    .containerForm{
+    
+        color: white;
+        font-family: 'Quicksand', sans-serif;;
+       
+       margin-top: 2rem;
+    }
+    
+    
+    
+    .content{
+       
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5em 1.5em 0 1.5em;
+    }
+    
+    .logo{
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    .logo span{
+        font-weight: bold;
+        color: #8E1515;
+    }
+    
+    .contact-wrapper{
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    }
+    
+    .contact-wrapper > * {
+        padding: 1em;
+    }
+    
+    .contact-form{
+        background: #3F4045;
+        margin-top: 1rem;
+        width: 100%;
+        height: 35rem;
+        position: relative;
+        left: 0rem;
+    }
+    
+    .content h1{
+        color: white;
+    }
+    form{
+        position: relative;
+        bottom: 15rem;
+        left: 1rem;
+    }
+
+
+    .contact-info{
+        margin-bottom: 3rem;
+    
+        height: 20rem;
+        width: 100%;
+        background: #333333;
+        position: relative;
+        left: 0rem;
+    
+    }
+
+    .maps{
+        margin-top: 1rem;
+        width: 100%;
+        height: 10rem;
+    }
+
+
+    /* nosotros */
+
+    .imgPortadaNosotros{
+        width: 100%;
+        height: 10rem;
+        position: relative;
+        top: 4.5rem;
+    }
+    
+    .textNosotros{
+        padding-top: 8rem;
+        position: relative;
+        top: 3rem;
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Carlito', sans-serif;
+    }
+    
+    .imgalign{
+        position: relative;
+        top: 10rem;
+    }
+    .imgBannerUbicacion{
+        width: 100%;
+        position: relative;
+        bottom: 2rem;
+        padding-left: 0rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    
+    .textUbication{
+        text-align: center;
+        font-family: 'Carlito', sans-serif;
+        font-size: 1rem;
+        position: relative;
+        bottom: 9.5rem;
+        color: white;
+    }
+    
+    .textUbication i{
+        font-weight: bold;
+        font-size: 4rem;
+    }
+
+    .textUbication i{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+
+    /* accesorios */
+
+    .sizeImgBilleteraOffWhite{
+        width: 70%;
+        position: relative;
+        bottom: 5rem;
+    }
+    .textAlignBilleteraOffWhite{
+        position: relative;
+        bottom: 4rem;
+    }
+    .sizeImgCinturonSupreme{
+        width: 70%;
+        /* padding-top: 12rem; */
+        margin-left: 0rem;
+    }
+    
+    .textAlignCinturonSupreme{
+       padding-top: 2rem;
+       padding-bottom: 4rem;
+    }
+    
+    .sizeImgBilleteraSpremexLouisVuitton{
+        width: 70%;
+        /* padding-top: 12rem; */
+    }
+    
+    .textAlignBilleteraSpremexLouisVuitton{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImgbilleterasupreme{
+        width: 70%;
+        /* padding-top: 8rem; */
+        padding-right: 0rem;
+    }
+    
+    .sizeImgGorraJordan{
+        width: 70%;
+        padding-top: 3rem;
+        /* padding-top: 9rem; */
+    }
+    
+    .textAlignGorraJordan{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImgGorraPalmAngels{
+        width: 70%;
+        /* padding-top: 8rem; */
+    }
+    
+    .textAlignGorraPalmAngels{
+        position: relative;
+        bottom: 0rem;
+    }
+    
+    .sizeImgGorraSupreme{
+        width: 70%;
+        padding-top: 0rem;
+        position: relative;
+        right: 0rem;
+    }
+    
+    .textAlignGorraSupreme{
+        padding-bottom: 3rem;
+        position: relative;
+        bottom: 0rem;
+        right: 0rem;
+    
+    }
+    
+    .sizeImgGorroSupremeNewEraBoxLogo{
+        width: 70%;
+        padding-top: 0rem;
+        position: relative;
+        right: 0rem;
+    }
+    
+    .textAlignGorroSupremeNewEraBoxLogo{
+        padding-top: 2rem;
+        position: relative;
+        right: 0rem;
+    }
+
+
+    /* indumentaria */
+
+
+    .textPortadaIndumentaria{
+        text-align: center;
+        position: relative;
+        bottom: 8rem;
+        font-size: 2rem;
+        color: white;
+        font-family: 'Carlito', sans-serif;
+    }
+    
+    .sizeImngHoodieStussy{
+        width: 70%;
+        position: relative;
+        right: 0rem;
+    }
+    
+    .textAlignHoodieStussy{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        right: 0rem;
+        top: 0rem;
+    }
+    
+    .sizeImngPantsEssentialsButterCream{
+        width: 70%;
+        position: relative;
+        right: 0rem;
+    }
+    
+    .textAlignPantsEssentialsButterCream{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        right: 0rem;
+        top: 0rem;
+    }
+    .sizeImngT-shirtCactusJack{
+        width: 70%;
+        position: relative;
+        left: 0rem;
+    
+    }
+    
+    .textAlignT-shirtCactusJack{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+    }
+    
+    .sizeImngT-shirtStussyWorldTour{
+        width: 70%;
+        margin-top: 0rem;
+        position: relative;
+        right: 0rem;
+     
+    }
+    
+    .textAlignT-shirtStussyWorldTour{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        right: 0rem;
+        top: 0rem;
+    }
+    
+    .sizeImngHoodieEssentialTaupe{
+        width: 70%;
+        margin-top: 0rem;
+        
+        
+    }
+    
+    .textAlignHoodieEssentialTaupe{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        top: 0rem;
+    }
+    
+    .sizeImngShortEssentialsButterCream{
+        width: 70%;
+        margin-top: 0rem;
+        position: relative;
+        left: 0rem;
+    
+    }
+    
+    .textAlignShortEssentialsButterCream{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+    }
+    
+    .sizeImngHoodieEssentialCanary{
+        width: 70%;
+        margin-top: 0rem;
+        position: relative;
+        right: 0rem;
+    }
+    
+    .textAlignHoodieEssentialCanary{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        right: 0rem;
+        top: 0rem;
+    }
+    
+    .sizeImngT-shirtTravisScot{
+        width: 70%;
+        margin-top: 0rem;
+        
+        
+    }
+    
+    .textAlignT-shirtTravisScot{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        top: 0rem;
+    }
+    
+    .sizeImngHoodieSupremeNatural{
+        width: 70%;
+        margin-top: 0rem;
+        position: relative;
+        left: 0rem;
+    }
+    
+    .textAlignHoodieSupremeNatural{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+    }
+    
+    .sizeImngPantsEssentialsOffBlack{
+        width: 70%;
+        margin-top: 0rem;
+        position: relative;
+        right: 0rem;
+    }
+    
+    .textAlignPantsEssentialsOffBlack{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        right: 0rem;
+        top: 0rem;
+    }
+    
+    .sizeImngShortJordanxTravisScott{
+        width: 70%;
+        margin-top: 0rem;
+    }
+    
+    .textAlignShortJordanxTravisScott{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        top: 0rem;
+    }
+    
+    .sizeImngHoodieEssentials{
+        width: 70%;
+        margin-top: 0rem;
+        position: relative;
+        left: 0rem;
+    }
+    
+    .textAlignHoodieEssentials{
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+    }
+
+   .pasoDePagina li{
+    padding: 0.4rem;
+   }
+
+
+
+     /* indumentaria pag 2 */
+
+
+     .sizeImngTshirtCactusJackxDior{
+        width: 70%;
+    }
+    
+    .textAlignTshirtCactusJackxDior{
+        padding-top: 2rem;
+       
+    }
+    
+    .sizeImngTshirtDrewHouse3dSherman{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngHoodieOffWhiteTapeDiagArrowsBlackBeige{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngHoodiePalmAngelsKillBear{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngSweatpantsJordanxJBalvinBlue{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngShortEssentialsMossGoat{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngTShirtStussyBasicBlack{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngHoodieDrewHouseMascotBlack{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngTShirtNikexStussyWhite{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngTShirtDrewHouseFullMoonBlack{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngHoodieSupremeBandanaBoxLightBlue{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .sizeImngTShirtNikexStussyBlack{
+        width: 70%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+
+
+    /* indumentaria pag 3 */
+
+
+    .sizeImngHoodieStussyWhite{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngShortEssentialsTaupe{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngTShirtDrewHouseSecretTeeWhite{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngSwatpantsEssentialsPistachio{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngTShirtOffWhiteSprayPrintBlack{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngHoodieEssentialsWood{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngSweatpantEssentialsSeal{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngTShirtEssentialsTaupe{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngDrewHouseTheordoreSketchCrewneckOffWhite{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngSweatpantNikexStussyInternationalBlack{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngTShirtdrewHouseSketchMascotTeeWhite{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .sizeImngSweatpantEssentialsWood{
+        width: 70%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+
+
+    /* index */
+
+
+
+    .portada{
+        width: 100%;
+        height: 10rem;
+        margin-top: 4.5rem;
+    
+    }
+    
+    h2{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        font-size: 1.5rem;
+        font-family: 'Overpass Mono', monospace;
+    }
+
+    .marcas{
+        
+        display: none;
+    }
+    
+
+    .quienes-somos{
+        text-align: center;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        font-family: 'Overpass Mono', monospace;
+        
+        
+    }
+    
+    .texto-quienesomos{
+    
+        text-align: center;
+        font-family: 'Carlito', sans-serif;
+        font-size: 1rem;
+    
+    }
+    
+    main section article button a:hover{
+        color: white;
+    }
+    .estilosButton a{
+        color: white;
+    }
+    .estilosButton{
+        padding: 0.3rem;
+        border-style: solid;
+        color: white;
+        background-color: black;
+        font-size: 1rem;
+        font-family: 'Carlito', sans-serif;
+        border-radius: 0.7rem;
+        position: relative;
+        top: 1rem;
+        left: 7.5rem;
+    }
+    
+    section article button a p{
+        position: relative;
+        top: 0.5rem;
+    }
+    
+    .imgConteiner{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15rem;
+        justify-content: space-around 
+        
+    }
+    
+    .imagen-essentials{
+        width: 100%;
+    }
+    
+    .imagen-jordan{
+        height: 33.2rem;
+        width: 100%;
+    }
+    
+    .imagen-supreme{
+        height: 33.2rem;
+        width: 100%;
+    }
+    
+    .iconContainer{
+        display: none;
+    }
+    
+    
 
 }
 

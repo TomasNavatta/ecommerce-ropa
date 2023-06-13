@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>menchys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 
 </head>
 <body>
     <header>
-        <nav>
-        
+           <nav>
+          <input type="checkbox" id="check"> 
+          <label for="check" class="checkbtn">
+           <i class="fas fa-bars menu"></i>
+          </label>
             <a href="https://tomasnavatta.github.io/ecommerce-ropa/">
                 <img class="logotipo" src="../img/logo_transparent.png" alt="logo menchys">
             </a>
@@ -26,67 +31,125 @@
                 <a href="https://tomasnavatta.github.io/ecommerce-ropa/" rel="home"></a>
             </h1>
                 </div>
-                
                     <ul class="sizeul">
-                      <li><a class="colorMarcas">marcas </a></li>
-                        <li><a href="../pages/categorias.html">categorias</a></li>
+                      <li><a class="colorMarcas">marcas </a>
+                        <ul class="menu_vertical">
+                          <li><a href="#"> Essentials</a> </li>
+                          <li><a href="#">Stussy</a></li>
+                          <li><a href="#">Palm Angels</a></li>
+                          <li><a href="#">Jordan</a></li>
+                          <li><a href="#">Supreme</a></li>
+                          <li><a href="#">The North Face</a></li>
+                          <li><a href="#">Off-Whitte</a></li>
+                          <li><a href="#">Drew</a></li>
+                      </ul>
+                    </li>
+                        <li><a href="../pages/categorias.html">categorias</a>
+                          <ul class="menu_verticalb">
+                            <div class="sub_menu_Calzado">
+                                <li><a href="#"> Calzado</a> </li>
+                            <li><a href="#">Zapatillas</a></li>
+                            </div>
+                            <div class="sub_menu_Indumentaria">
+                                <li><a href="#">Indumentaria</a></li>
+                                <li><a href="#">Remeras</a></li>
+                                <li><a href="#">Camperas</a></li>
+                                <li><a href="#">Swatshirts</a></li>
+                                <li><a href="#">Hoodies</a></li>
+                                <li><a href="#">Shorts</a></li>
+                                <li><a href="#">Pantalones</a></li>
+                            </div>
+                            <div class="sub_menu_Accesorios">
+                                <li><a href="#">Acesorrios</a></li>
+                                <li><a href="#">Gorras</a></li>
+                                <li><a href="#">Cinturones</a></li>
+                                <li><a href="#">Billetera</a></li>
+                            </div>
+                        </ul>
+                      </li>
                         <li><a href="../pages/nosotros.html">nosotros</a></li>
                         <li><a href="../pages/contacto.html">contacto</a></li>
                     </ul>
-                   
                 </nav>
+       
     </header>
     <main>
         <section>
-            <article>
+            <article  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="800">
                 <img class="imgPortada" src="../img/banner jordan 2.png" alt="zapatillas jordan 1 high chicago">
-                <h1 class="textPortadaCategorias">CATEGORIAS</h1>
+                <h1 class="textPortadaCategorias" >CATEGORIAS</h1>
             </article>
         </section>
         <section class="ropaContainer">
-            <div>
-                <img class="imagen-calzado" src="../img/Air-Jordan-1-High-OG-University-Blue-.jpg" alt="zapatillas jordan">
-                <p class="calzado">calzado</p>
-            </div>
- 
-           <div>
-               <img class="imagen-indumentaria" src="../img/d86eb8bd-0d85-4b84-9499-37b019e50d24_03-09-21_FearOfGod_DesktopSlideshow_1600x900.avif" alt="indumentaria essentials">
-               <p class="indumentaria">indumentaria</p>
-           </div>
-            
-           <div>
-            <img class="imagen-accesorios" src="../img/92dfbc42755ca71299fd8cb3780afe06.jpg" alt="accesorios supreme">
-             <p class="accesorios">accesorios</p>
-           </div>
+            <div data-aos="zoom-in-up">
+                <a href="../pages/calzado.html" ><img class="imagen-calzado" src="../img/Air-Jordan-1-High-OG-University-Blue-.jpg" alt="zapatillas jordan">
+                  <p class="calzado">calzado</p></a> 
+              </div>
+   
+             <div data-aos="zoom-in-up">
+               <a href="../pages/indumentaria.html"> <img class="imagen-indumentaria" src="../img/d86eb8bd-0d85-4b84-9499-37b019e50d24_03-09-21_FearOfGod_DesktopSlideshow_1600x900.avif" alt="indumentaria essentials">
+                 <p class="indumentaria">indumentaria</p></a> 
+             </div>
+              
+             <div data-aos="zoom-in-up">
+              <a href="../pages/accesorios.html"><img class="imagen-accesorios" src="../img/92dfbc42755ca71299fd8cb3780afe06.jpg" alt="accesorios supreme">
+               <p class="accesorios">accesorios</p></a>
+             </div>
        </section>
     </main>
     <hr class="separador">
-    <footer>
-        <div class="soporteContainer">
-            <h3 class="soporte">soporte</h3>
-            <a class="preguntas" href="../pages/preguntasFrecuentes.html">preguntas frecuentes</a>
-            <i class='bx bx-chevron-right flecha' ></i>
-            <a class="devoluciones" href="../pages/politicaDeDevoluciones.html">politica de devoluciones</a>
-            <i class='bx bx-chevron-right flecha-right' ></i>
-            <i class='bx bx-envelope mail' ></i>
-            <p class="gmail">menchys@gmail.com</p>
-            <i class='bx bxs-phone phone'></i>
-            <p class="numero">11 5738-3752</p>
-        </div>
-        <h3 class="metodosde-pago">metodos de pago</h3>
-        <div class="pagosContainer">
-            <i class='bx bxl-visa visa' ></i>
-            <i class='bx bxl-mastercard mastercard' ></i>
-            <i class='bx bxl-paypal paypal' ></i>
-        </div>
-        <h3 class="redes-sociales">redes sociales</h3>
-        <i class='bx bxl-instagram instagram' ></i>
-        <p class="copyright">Copyright © Menchys 2023</p>
-        
+    <footer >
+        <h3 class="soporte">soporte</h3>
+        <a class="preguntas " href="../pages/preguntasFrecuentes.html">preguntas frecuentes</a>
+        <i class='bx bx-chevron-right flecha ' ></i>
+        <a class="devoluciones" href="../pages/politicaDeDevoluciones.html">politica de devoluciones</a>
+        <i class='bx bx-chevron-right flecha-right' ></i>
+        <i class='bx bx-envelope mail ' ></i>
+        <p class="gmail ">menchys@gmail.com</p>
+        <i class='bx bxs-phone phone '></i>
+        <p class="numero ">11 5738-3752</p>
+    <h3 class="metodosde-pago">metodos de pago</h3>
+    
+        <i class='bx bxl-visa visa' ></i>
+        <i class='bx bxl-mastercard mastercard' ></i>
+        <i class='bx bxl-paypal paypal' ></i>
+    
+    <h3 class="redes-sociales ">redes sociales</h3>
+    <i class='bx bxl-instagram instagram ' ></i>
+    <p class="copyright">Copyright © Menchys 2023</p>
+    
 
-    </footer>
+</footer>
+<footer class="footerResponsive" >
+  <h3 class="soporte">soporte</h3>
+  <a class="preguntas " href="../pages/preguntasFrecuentes.html">
+  <i class='bx bx-chevron-right flecha ' >preguntas frecuentes</i></a>
+  <a class="devoluciones" href="../pages/politicaDeDevoluciones.html">
+  <i class='bx bx-chevron-right flecha-right' >politica de devoluciones</i></a>
+  <i class='bx bx-envelope mail ' >menchys@gmail.com</i>
+  <p class="gmail "></p>
+  <i class='bx bxs-phone phone '>11 5738-3752</i>
+  <p class="numero "></p>
+<h3 class="metodosde-pago">metodos de pago</h3>
+
+  <i class='bx bxl-visa visa' ></i>
+  <i class='bx bxl-mastercard mastercard' ></i>
+  <i class='bx bxl-paypal paypal' ></i>
+
+<h3 class="redes-sociales ">redes sociales</h3>
+<i class='bx bxl-instagram instagram ' ></i>
+<p class="copyright">Copyright © Menchys 2023</p>
+
+
+</footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
