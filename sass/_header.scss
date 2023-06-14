@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    background-color: white;
+    width: 100%;
+    height: 9rem;
+    position: fixed;
+    z-index: 10;
+    
+  }
+  
+  .checkbtn {
+    font-size: 30px;
+    color: rgb(3, 1, 1);
+    float: left;
+    line-height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: none;
+  
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  .logotipo {
+    z-index: 11;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 55rem;
+    /* margin-left: 55rem; */
+    margin-top: 1rem;
+    width: 7rem;
+    height: 7rem;
+   
+  }
+  
+  .search {
+    position: relative;
+    top: 1rem;
+    left: 100rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 6rem;
+    
+  }
+  
+  .compra {
+    position: relative;
+    top: 1rem;
+    left: 102rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 6rem;
+    
+  }
+  
+  .usuario {
+    position: relative;
+    top: 1rem;
+    left: 104rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 6rem;
+   
+  }
+  
+  .sizeul {
+    font-size: 1.5rem;
+    list-style-type: none;
+  }
+  
+  .menu_vertical {
+    line-height: 0.2rem;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 20rem;
+    height: 23rem;
+    background-color: white;
+    z-index: 10;
+  }
+  
+  header nav ul li ul {
+    padding-top: 10rem;
+    padding-right: 7rem;
+  }
+  
+  .sizeul li:hover .menu_vertical {
+    display: block;
+  }
+  
+  .sub_menu_Calzado {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 3rem;
+  }
+  
+  .sub_menu_Indumentaria {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15rem;
+    bottom: 7rem;
+  }
+  
+  .sub_menu_Accesorios {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 32rem;
+    bottom: 22.5rem;
+  }
+  
+  .menu_verticalb {
+    line-height: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    display: none;
+    list-style: none;
+    z-index: 10;
+    width: 50rem;
+    height: 20rem;
+    background-color: white;
+  }
+  
+  .sizeul li:hover .menu_verticalb {
+    display: block;
+  }
+  
+  li {
+    display: inline-block;
+    padding-left: 2rem;
+    position: relative;
+    bottom: 4.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .colorMarcas a:hover {
+    color: red;
+  }
+  
+  li a {
+    color: black;
+  }
+  
+  a:hover {
+    color: red;
+  }
