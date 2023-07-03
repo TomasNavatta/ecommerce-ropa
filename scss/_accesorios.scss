@@ -1,0 +1,154 @@
+main{
+    section{
+        article{
+            .sizeImgBilleteraOffWhite{
+                width: 20rem;
+                position: relative;
+                bottom: 12rem;
+                @include mobile{
+                    width: 70%;
+                    position: relative;
+                    bottom: 5rem;
+                }
+            }
+            .textAlignBilleteraOffWhite{
+                position: relative;
+                bottom: 12rem;
+                @include mobile{
+                    position: relative;
+                    bottom: 4rem;
+                }
+            }
+            .sizeImgCinturonSupreme{
+                width: 20rem;
+             
+                margin-left: 2rem;
+                @include mobile{
+                    width: 70%;
+             
+                    margin-left: 0rem;
+                }
+            }
+            
+            .textAlignCinturonSupreme{
+               padding-top: 2.5rem;
+               @include mobile{
+                padding-top: 2rem;
+                padding-bottom: 4rem;
+               }
+            }
+            
+            .sizeImgBilleteraSpremexLouisVuitton{
+                width: 17rem;
+             
+                @include mobile{
+                    width: 70%;
+                }
+            }
+            
+            .textAlignBilleteraSpremexLouisVuitton{
+                padding-top: 3rem;
+                @include mobile{
+                    padding-top: 2rem;
+        padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImgbilleterasupreme{
+                width: 20rem;
+         
+                padding-right: 2rem;
+                @include mobile{
+                    width: 70%;
+             
+                    padding-right: 0rem;
+                }
+            }
+            
+            .sizeImgGorraJordan{
+                width: 20rem;
+               
+                @include mobile{
+                    width: 70%;
+                    padding-top: 3rem;
+                 
+                }
+            }
+            
+            .textAlignGorraJordan{
+                padding-top: 2rem;
+                @include mobile{
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImgGorraPalmAngels{
+                width: 19rem;
+                @include mobile{
+                    width: 70%;
+                }
+            }
+            
+            .textAlignGorraPalmAngels{
+                position: relative;
+                bottom: 1rem;
+                @include mobile{
+                    position: relative;
+                    bottom: 0rem;
+                }
+            }
+            
+            .sizeImgGorraSupreme{
+                width: 23rem;
+                padding-top: 6rem;
+                position: relative;
+                right: 9rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 0rem;
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+            
+            .textAlignGorraSupreme{
+                position: relative;
+                bottom: 1.8rem;
+                right: 10rem;
+                @include mobile{
+                    padding-bottom: 3rem;
+                    position: relative;
+                   bottom: 0rem;
+                    right: 0rem;
+                }
+            
+            }
+            
+            .sizeImgGorroSupremeNewEraBoxLogo{
+                width: 24rem;
+                padding-top: 11rem;
+                position: relative;
+                right: 21rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 0rem;
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+            
+            .textAlignGorroSupremeNewEraBoxLogo{
+                padding-top: 2rem;
+                position: relative;
+                right: 21rem;
+                @include mobile{
+                    padding-top: 2rem;
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+            
+        }
+    }
+}

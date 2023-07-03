@@ -1,0 +1,39 @@
+main{
+    section{
+        article{
+            .textPortadaPoliticaDeDevoluciones{
+                text-align: center;
+                position: relative;
+                bottom: 18rem;
+                font-size: 5rem;
+                color: white;
+                font-family: 'Carlito', sans-serif;
+                @include mobile{
+                    position: relative;
+        bottom: 9rem;
+        color: white;
+        font-size: 2rem;
+                }
+               
+            }
+        }
+    }
+    section{
+        article{
+            .textPoliticaDeDevoluciones{
+                padding-left: 25rem;
+                position: relative;
+                bottom: 3rem;
+                font-family: 'Carlito', sans-serif;
+                margin-bottom: 10rem;
+                @include mobile{
+                    display: flex;
+                    padding-left: 1rem;
+                    position: relative;
+                    bottom: 8rem;
+                }
+                
+             }
+        }
+    }
+}

@@ -1,0 +1,154 @@
+main{
+    section{
+        article{
+            .sizeImngHoodieStussy{
+                width: 30rem;
+                position: relative;
+                right: 9rem;
+                @include mobile{
+                    width: 70%;
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+            
+            .textAlignHoodieStussy{
+                position: relative;
+                right: 9rem;
+                top: 3rem;
+                @include mobile{
+                    margin-bottom: 6rem;
+                    position: relative;
+                    right: 0rem;
+                    top: 3rem;
+                }
+            }
+            
+            
+            .sizeImngT-shirtStussyWorldTourB{
+                width: 20rem;
+                margin-bottom: 1rem;
+                position: relative;
+                bottom: 1rem;
+                right: 8rem;
+                @include mobile{
+                    width: 70%;
+                    margin-bottom: 1rem;
+                    position: relative;
+                    bottom: 1rem;
+                    right: 0rem;
+                }
+             
+            }
+            
+            .textAlignT-shirtStussyWorldTourB{
+                position: relative;
+                right: 8rem;
+                @include mobile{
+                    margin-bottom: 6rem;
+                    position: relative;
+                right: 0rem;
+                }
+                
+            }
+            
+            .sizeImngTShirtStussyBasicBlackB{
+                width: 25rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-bottom: 3rem;
+                }
+            }
+            
+           
+            
+            .sizeImngTShirtNikexStussyWhiteB{
+                width: 24rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                position: relative;
+                right: 8rem;
+                @include mobile{
+                    width: 70%;
+                padding-top: 6rem;
+                padding-bottom: 3rem;
+                position: relative;
+                right: 0rem;
+                }
+            }
+
+            .textAlignTShirtNikexStussyWhiteB{
+                position: relative;
+                right: 8rem;
+                @include mobile{
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+            
+            .sizeImngTShirtNikexStussyBlackB{
+                width: 22rem;
+                padding-top: 17rem;
+                padding-bottom: 2.7rem;
+                position: relative;
+                right: 6rem;
+                @include mobile{
+                    width: 70%;
+                padding-top: 6rem;
+                padding-bottom: 2.7rem;
+                position: relative;
+                right: 0rem;
+                }
+            }
+
+            .textAlignTShirtNikexStussyBlackB{
+                position: relative;
+                right: 6rem;
+                @include mobile{
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+
+            .sizeImngHoodieStussyWhiteB{
+                width: 25rem;
+                padding-top: 16rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 6rem;
+                    padding-bottom: 2rem;
+                }
+                
+            }
+            
+            
+            .sizeImngSweatpantNikexStussyInternationalBlackB{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                position: relative;
+                right: 37rem;
+                @include mobile{
+                    width: 70%;
+                padding-top: 6rem;
+                padding-bottom: 3rem;
+                position: relative;
+                right: 0rem;
+                }
+            }
+
+            .textAlignSweatpantNikexStussyInternationalBlackB{
+                position: relative;
+                right: 37rem;
+                @include mobile{
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+            
+            
+        }
+    }
+}

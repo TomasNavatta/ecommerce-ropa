@@ -3,30 +3,68 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style: none;
-}
+  list-style: none; }
 
 header {
   background-color: white;
   width: 100%;
   height: 9rem;
   position: fixed;
-  z-index: 10;
-}
+  z-index: 10; }
+  @media screen and (max-width: 500px) {
+    header {
+      height: 4rem; } }
+  @media screen and (max-width: 500px) {
+    header #check:checked ~ ul {
+      left: 0; } }
+  @media screen and (max-width: 500px) {
+    header ul {
+      position: fixed;
+      width: 100%;
+      height: 120vh;
+      background: white;
+      top: 63px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s; } }
+  @media screen and (max-width: 500px) {
+    header ul li {
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+      position: relative;
+      right: 2.5rem;
+      top: 4rem; }
+      header ul li:active {
+        background: none;
+        color: red; } }
+  @media screen and (max-width: 500px) {
+    header ul li a {
+      font-size: 20px; }
+      header ul li a:hover {
+        background: none;
+        color: red; } }
 
 .checkbtn {
   font-size: 30px;
-  color: rgb(3, 1, 1);
+  color: #030101;
   float: left;
   line-height: 80px;
   margin-left: 40px;
   cursor: pointer;
-  display: none;
-}
+  display: none; }
+  @media screen and (max-width: 500px) {
+    .checkbtn {
+      display: block; } }
+
+@media screen and (max-width: 500px) {
+  .menu {
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 0.5rem; } }
 
 #check {
-  display: none;
-}
+  display: none; }
 
 .logotipo {
   z-index: 11;
@@ -37,8 +75,14 @@ header {
   /* margin-left: 55rem; */
   margin-top: 1rem;
   width: 7rem;
-  height: 7rem;
-}
+  height: 7rem; }
+  @media screen and (max-width: 500px) {
+    .logotipo {
+      width: 16%;
+      height: 3rem;
+      position: relative;
+      bottom: 0.5rem;
+      left: 5.5rem; } }
 
 .search {
   position: relative;
@@ -46,8 +90,13 @@ header {
   left: 100rem;
   font-size: 1.5rem;
   font-weight: bold;
-  font-weight: bolder 6rem;
-}
+  font-weight: bolder 6rem; }
+  @media screen and (max-width: 500px) {
+    .search {
+      width: 2%;
+      font-size: 1.2rem;
+      position: relative;
+      left: 8.3rem; } }
 
 .compra {
   position: relative;
@@ -55,8 +104,13 @@ header {
   left: 102rem;
   font-size: 1.5rem;
   font-weight: bold;
-  font-weight: bolder 6rem;
-}
+  font-weight: bolder 6rem; }
+  @media screen and (max-width: 500px) {
+    .compra {
+      width: 2%;
+      font-size: 1.2rem;
+      position: relative;
+      left: 9.8rem; } }
 
 .usuario {
   position: relative;
@@ -64,13 +118,17 @@ header {
   left: 104rem;
   font-size: 1.5rem;
   font-weight: bold;
-  font-weight: bolder 6rem;
-}
+  font-weight: bolder 6rem; }
+  @media screen and (max-width: 500px) {
+    .usuario {
+      width: 2%;
+      font-size: 1.2rem;
+      position: relative;
+      left: 11.3rem; } }
 
 .sizeul {
   font-size: 1.5rem;
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 .menu_vertical {
   line-height: 0.2rem;
@@ -80,40 +138,34 @@ header {
   width: 20rem;
   height: 23rem;
   background-color: white;
-  z-index: 10;
-}
+  z-index: 10; }
 
 header nav ul li ul {
   padding-top: 10rem;
-  padding-right: 7rem;
-}
+  padding-right: 7rem; }
 
 .sizeul li:hover .menu_vertical {
-  display: block;
-}
+  display: block; }
 
 .sub_menu_Calzado {
   display: flex;
   flex-direction: column;
   position: relative;
-  bottom: 3rem;
-}
+  bottom: 3rem; }
 
 .sub_menu_Indumentaria {
   display: flex;
   flex-direction: column;
   position: relative;
   left: 15rem;
-  bottom: 7rem;
-}
+  bottom: 7rem; }
 
 .sub_menu_Accesorios {
   display: flex;
   flex-direction: column;
   position: relative;
   left: 32rem;
-  bottom: 22.5rem;
-}
+  bottom: 22.5rem; }
 
 .menu_verticalb {
   line-height: 0.2rem;
@@ -125,12 +177,10 @@ header nav ul li ul {
   z-index: 10;
   width: 50rem;
   height: 20rem;
-  background-color: white;
-}
+  background-color: white; }
 
 .sizeul li:hover .menu_verticalb {
-  display: block;
-}
+  display: block; }
 
 li {
   display: inline-block;
@@ -138,450 +188,558 @@ li {
   position: relative;
   bottom: 4.5rem;
   margin-bottom: 2rem;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-}
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .colorMarcas a:hover {
-  color: red;
-}
+  color: red; }
 
 li a {
-  color: black;
-}
+  color: black; }
 
 a:hover {
-  color: red;
-}
+  color: red; }
 
 main .portada {
   height: 39.65rem;
-  margin-top: 8rem;
-}
+  margin-top: 8rem; }
+  @media screen and (max-width: 500px) {
+    main .portada {
+      width: 100%;
+      height: 10rem;
+      margin-top: 4.5rem; } }
+
 main section div h2 {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 5rem;
   font-size: 2rem;
-  font-family: "Overpass Mono", monospace;
-}
+  font-family: 'Overpass Mono', monospace; }
+  @media screen and (max-width: 500px) {
+    main section div h2 {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 5rem;
+      font-size: 1.5rem;
+      font-family: 'Overpass Mono', monospace; } }
+
 main section article .splide__track {
   display: flex;
-  align-items: center;
-}
-main section article .splide__track .img_box {
-  width: 15rem;
-}
-main section article .splide__track .img_box .sweatpantEssentialsSeal {
-  width: 25rem;
-  position: relative;
-  right: 3rem;
-}
-main section article .splide__track .img_box .textSweatpantEssentialsSeal {
-  text-align: center;
-  padding-top: 3rem;
-  position: relative;
-  left: 2rem;
-}
-main section article .splide__track .img_box .hoodieOffWhiteTapeDiagArrowsBlackBeige {
-  width: 25rem;
-}
-main section article .splide__track .img_box .textHoodieOffWhiteTapeDiagArrowsBlackBeige {
-  text-align: center;
-  padding-top: 2rem;
-  position: relative;
-  left: 5rem;
-}
-main section article .splide__track .img_box .hoodieSupremeBandanaBoxLightBlue {
-  width: 25rem;
-}
-main section article .splide__track .img_box .textHoodieSupremeBandanaBoxLightBlue {
-  text-align: center;
-  padding-top: 2rem;
-  position: relative;
-  left: 5rem;
-}
-main section article .splide__track .img_box .sweatpantNikexStussyInternationalBlack {
-  width: 25rem;
-}
-main section article .splide__track .img_box .textSweatpantNikexStussyInternationalBlack {
-  text-align: center;
-  padding-top: 2rem;
-  position: relative;
-  left: 5rem;
-}
-main section article .splide__track .img_box .hoodieDrewHouseMascotBlack {
-  width: 25rem;
-}
-main section article .splide__track .img_box .textHoodieDrewHouseMascotBlack {
-  text-align: center;
-  padding-top: 3rem;
-  position: relative;
-  left: 5rem;
-}
-main section article .splide__track .img_box .sweatpantsJordanxJBalvinBlue {
-  width: 25rem;
-}
-main section article .splide__track .img_box .textSweatpantsJordanxJBalvinBlue {
-  text-align: center;
-  padding-top: 3rem;
-  position: relative;
-  left: 5rem;
-}
-main section article .splide__track .img_box .hoodieEssentialsWood {
-  width: 25rem;
-}
-main section article .splide__track .img_box .textHoodieEssentialsWood {
-  padding-top: 3rem;
-  text-align: center;
-  position: relative;
-  left: 5rem;
-}
-main section article .splide__track .img_box .hoodiePalmAngelsKillBear {
-  width: 25rem;
-}
-main section article .splide__track .img_box .textHoodiePalmAngelsKillBear {
-  padding-top: 3rem;
-  text-align: center;
-  position: relative;
-  left: 5rem;
-}
+  align-items: center; }
+  main section article .splide__track .img_box {
+    width: 15rem; }
+    main section article .splide__track .img_box .sweatpantEssentialsSeal {
+      width: 25rem;
+      position: relative;
+      right: 3rem; }
+    main section article .splide__track .img_box .textSweatpantEssentialsSeal {
+      text-align: center;
+      padding-top: 3rem;
+      position: relative;
+      left: 2rem; }
+    main section article .splide__track .img_box .hoodieOffWhiteTapeDiagArrowsBlackBeige {
+      width: 25rem; }
+    main section article .splide__track .img_box .textHoodieOffWhiteTapeDiagArrowsBlackBeige {
+      text-align: center;
+      padding-top: 2rem;
+      position: relative;
+      left: 5rem; }
+    main section article .splide__track .img_box .hoodieSupremeBandanaBoxLightBlue {
+      width: 25rem; }
+    main section article .splide__track .img_box .textHoodieSupremeBandanaBoxLightBlue {
+      text-align: center;
+      padding-top: 2rem;
+      position: relative;
+      left: 5rem; }
+    main section article .splide__track .img_box .sweatpantNikexStussyInternationalBlack {
+      width: 25rem; }
+    main section article .splide__track .img_box .textSweatpantNikexStussyInternationalBlack {
+      text-align: center;
+      padding-top: 2rem;
+      position: relative;
+      left: 5rem; }
+    main section article .splide__track .img_box .hoodieDrewHouseMascotBlack {
+      width: 25rem; }
+    main section article .splide__track .img_box .textHoodieDrewHouseMascotBlack {
+      text-align: center;
+      padding-top: 3rem;
+      position: relative;
+      left: 5rem; }
+    main section article .splide__track .img_box .sweatpantsJordanxJBalvinBlue {
+      width: 25rem; }
+    main section article .splide__track .img_box .textSweatpantsJordanxJBalvinBlue {
+      text-align: center;
+      padding-top: 3rem;
+      position: relative;
+      left: 5rem; }
+    main section article .splide__track .img_box .hoodieEssentialsWood {
+      width: 25rem; }
+    main section article .splide__track .img_box .textHoodieEssentialsWood {
+      padding-top: 3rem;
+      text-align: center;
+      position: relative;
+      left: 5rem; }
+    main section article .splide__track .img_box .hoodiePalmAngelsKillBear {
+      width: 25rem; }
+    main section article .splide__track .img_box .textHoodiePalmAngelsKillBear {
+      padding-top: 3rem;
+      text-align: center;
+      position: relative;
+      left: 5rem; }
+
 main section Article .marcas {
   display: flex;
   justify-content: space-around;
   padding-bottom: 4rem;
   position: relative;
-  top: 6rem;
-}
-main section Article .marcas .logo-jordan {
-  height: 6rem;
-  width: 10rem;
-}
-main section Article .marcas .logo-stussy {
-  height: 7rem;
-  width: 11rem;
-}
-main section Article .marcas .logo-essentials {
-  height: 4rem;
-  width: 8rem;
-  position: relative;
-  top: 2rem;
-}
-main section Article .marcas .logo-palmangels {
-  height: 7rem;
-  width: 11rem;
-}
-main section Article .marcas .logo-northface {
-  height: 5rem;
-  width: 9rem;
-  position: relative;
-  top: 1.2rem;
-}
-main section Article .marcas .logo-offwhite {
-  height: 7rem;
-  width: 11rem;
-}
+  top: 6rem; }
+  @media screen and (max-width: 500px) {
+    main section Article .marcas {
+      display: none; } }
+  main section Article .marcas .logo-jordan {
+    height: 6rem;
+    width: 10rem; }
+  main section Article .marcas .logo-stussy {
+    height: 7rem;
+    width: 11rem; }
+  main section Article .marcas .logo-essentials {
+    height: 4rem;
+    width: 8rem;
+    position: relative;
+    top: 2rem; }
+  main section Article .marcas .logo-palmangels {
+    height: 7rem;
+    width: 11rem; }
+  main section Article .marcas .logo-northface {
+    height: 5rem;
+    width: 9rem;
+    position: relative;
+    top: 1.2rem; }
+  main section Article .marcas .logo-offwhite {
+    height: 7rem;
+    width: 11rem; }
+
 main .ropaContainer {
   display: flex;
   justify-content: space-around;
   margin-top: 8rem;
-  font-family: "Overpass Mono", monospace;
+  font-family: 'Overpass Mono', monospace;
   color: white;
   text-align: center;
-  font-size: 4rem;
-}
-main .ropaContainer div .imagen-calzado {
-  height: 35rem;
-  width: 37rem;
-}
-main .ropaContainer div a:hover {
-  color: white;
-}
-main .ropaContainer div a {
-  color: white;
-}
-main .ropaContainer div .textPortadaCalzado {
-  text-align: center;
-  position: relative;
-  bottom: 18rem;
-  font-size: 5rem;
-  color: white;
-  font-family: "Carlito", sans-serif;
-}
-main .ropaContainer div .calzado {
-  position: relative;
-  bottom: 20rem;
-}
-main .ropaContainer div .imagen-indumentaria {
-  height: 35rem;
-  width: 37rem;
-}
-main .ropaContainer div .indumentaria {
-  position: relative;
-  bottom: 20rem;
-}
-main .ropaContainer div .imagen-accesorios {
-  height: 35rem;
-  width: 37rem;
-}
-main .ropaContainer div .accesorios {
-  position: relative;
-  bottom: 20rem;
-}
+  font-size: 4rem; }
+  @media screen and (max-width: 500px) {
+    main .ropaContainer {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: none;
+      margin-top: 0rem;
+      font-family: 'Overpass Mono', monospace;
+      color: white;
+      text-align: center;
+      font-size: 2rem; } }
+  main .ropaContainer div .imagen-calzado {
+    height: 35rem;
+    width: 37rem; }
+    @media screen and (max-width: 500px) {
+      main .ropaContainer div .imagen-calzado {
+        height: 20rem;
+        width: 100%; } }
+  main .ropaContainer div a:hover {
+    color: white; }
+  main .ropaContainer div a {
+    color: white; }
+  main .ropaContainer div .textPortadaCalzado {
+    text-align: center;
+    position: relative;
+    bottom: 18rem;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Carlito', sans-serif; }
+  main .ropaContainer div .calzado {
+    position: relative;
+    bottom: 20rem; }
+    @media screen and (max-width: 500px) {
+      main .ropaContainer div .calzado {
+        position: relative;
+        bottom: 10rem; } }
+  main .ropaContainer div .imagen-indumentaria {
+    height: 35rem;
+    width: 37rem; }
+    @media screen and (max-width: 500px) {
+      main .ropaContainer div .imagen-indumentaria {
+        height: 20rem;
+        width: 100%; } }
+  main .ropaContainer div .indumentaria {
+    position: relative;
+    bottom: 20rem; }
+    @media screen and (max-width: 500px) {
+      main .ropaContainer div .indumentaria {
+        position: relative;
+        bottom: 10rem; } }
+  main .ropaContainer div .imagen-accesorios {
+    height: 35rem;
+    width: 37rem; }
+    @media screen and (max-width: 500px) {
+      main .ropaContainer div .imagen-accesorios {
+        height: 20rem;
+        width: 100%; } }
+  main .ropaContainer div .accesorios {
+    position: relative;
+    bottom: 20rem; }
+    @media screen and (max-width: 500px) {
+      main .ropaContainer div .accesorios {
+        position: relative;
+        bottom: 12rem; } }
+
 main section article .quienes-somos {
   text-align: center;
   font-size: 2.5rem;
   padding-bottom: 5rem;
-  font-family: "Overpass Mono", monospace;
-}
+  font-family: 'Overpass Mono', monospace; }
+  @media screen and (max-width: 500px) {
+    main section article .quienes-somos {
+      text-align: center;
+      font-size: 2rem;
+      padding-bottom: 2rem;
+      font-family: 'Overpass Mono', monospace; } }
+
 main section article .texto-quienesomos {
   text-align: center;
-  font-family: "Carlito", sans-serif;
-  font-size: 1.6rem;
-}
+  font-family: 'Carlito', sans-serif;
+  font-size: 1.6rem; }
+  @media screen and (max-width: 500px) {
+    main section article .texto-quienesomos {
+      text-align: center;
+      font-family: 'Carlito', sans-serif;
+      font-size: 1rem; } }
+
 main section article button a:hover {
-  color: white;
-}
+  color: white; }
+  @media screen and (max-width: 500px) {
+    main section article button a:hover {
+      color: white; } }
+
 main section article .estilosButton {
   padding: 0.3rem;
   border-style: solid;
   color: white;
   background-color: black;
   font-size: 1.5rem;
-  font-family: "Carlito", sans-serif;
+  font-family: 'Carlito', sans-serif;
   border-radius: 0.7rem;
   position: relative;
   top: 3rem;
-  left: 54rem;
-}
-main section article .estilosButton a {
-  color: white;
-}
-main section article .estilosButton a p {
-  position: relative;
-  top: 0.5rem;
-}
+  left: 54rem; }
+  @media screen and (max-width: 500px) {
+    main section article .estilosButton {
+      padding: 0.3rem;
+      border-style: solid;
+      color: white;
+      background-color: black;
+      font-size: 1rem;
+      font-family: 'Carlito', sans-serif;
+      border-radius: 0.7rem;
+      position: relative;
+      top: 1rem;
+      left: 7.5rem; } }
+  main section article .estilosButton a {
+    color: white; }
+    @media screen and (max-width: 500px) {
+      main section article .estilosButton a {
+        color: white; } }
+    main section article .estilosButton a p {
+      position: relative;
+      top: 0.5rem; }
+      @media screen and (max-width: 500px) {
+        main section article .estilosButton a p {
+          position: relative;
+          top: 0.5rem; } }
+
 main section .imgConteiner {
   display: flex;
   margin-top: 15rem;
-  justify-content: space-around;
-}
-main section .imgConteiner .imagen-jordan {
-  height: 33.2rem;
-  width: 35rem;
-}
-main section .imgConteiner .imagen-supreme {
-  height: 33.2rem;
-  width: 35rem;
-}
+  justify-content: space-around; }
+  @media screen and (max-width: 500px) {
+    main section .imgConteiner {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15rem;
+      justify-content: space-around; } }
+  @media screen and (max-width: 500px) {
+    main section .imgConteiner .imagen-essentials {
+      width: 100%; } }
+  main section .imgConteiner .imagen-jordan {
+    height: 33.2rem;
+    width: 35rem; }
+    @media screen and (max-width: 500px) {
+      main section .imgConteiner .imagen-jordan {
+        height: 33.2rem;
+        width: 100%; } }
+  main section .imgConteiner .imagen-supreme {
+    height: 33.2rem;
+    width: 35rem; }
+    @media screen and (max-width: 500px) {
+      main section .imgConteiner .imagen-supreme {
+        height: 33.2rem;
+        width: 100%; } }
+
 main .iconContainer {
   display: flex;
-  font-family: "Carlito", sans-serif;
+  font-family: 'Carlito', sans-serif;
   margin-top: 8rem;
-  justify-content: space-around;
-}
-main .iconContainer .productos {
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-weight: bolder 3rem;
-}
-main .iconContainer .exclusivos {
-  font-size: 1.2rem;
-  position: relative;
-  right: 7rem;
-}
-main .iconContainer .camion {
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-weight: bolder 3rem;
-}
-main .iconContainer .envios {
-  font-size: 1.2rem;
-  position: relative;
-  right: 7rem;
-}
-main .iconContainer .candado {
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-weight: bolder 3rem;
-}
-main .iconContainer .seguro {
-  font-size: 1.2rem;
-  position: relative;
-  right: 7rem;
-}
-main .iconContainer .garantia {
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-weight: bolder 3rem;
-}
-main .iconContainer .calidad {
-  font-size: 1.2rem;
-  position: relative;
-  right: 7rem;
-}
+  justify-content: space-around; }
+  @media screen and (max-width: 500px) {
+    main .iconContainer {
+      display: none; } }
+  main .iconContainer .productos {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 3rem; }
+  main .iconContainer .exclusivos {
+    font-size: 1.2rem;
+    position: relative;
+    right: 7rem; }
+  main .iconContainer .camion {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 3rem; }
+  main .iconContainer .envios {
+    font-size: 1.2rem;
+    position: relative;
+    right: 7rem; }
+  main .iconContainer .candado {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 3rem; }
+  main .iconContainer .seguro {
+    font-size: 1.2rem;
+    position: relative;
+    right: 7rem; }
+  main .iconContainer .garantia {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: bolder 3rem; }
+  main .iconContainer .calidad {
+    font-size: 1.2rem;
+    position: relative;
+    right: 7rem; }
 
 .separador {
-  margin-top: 4rem;
-}
+  margin-top: 4rem; }
 
 .separadorHeader {
   width: 100%;
   position: relative;
-  bottom: 4.6rem;
-}
+  bottom: 4.6rem; }
+  @media screen and (max-width: 500px) {
+    .separadorHeader {
+      display: none; } }
 
 main section .articleContainer {
-  display: flex;
-}
+  display: flex; }
+
 main div .containerForm {
   color: white;
-  font-family: "Quicksand", sans-serif;
-  margin-top: 8rem;
-}
-main div .containerForm .containerContact {
-  display: flex;
-}
-main div .containerForm .containerContact .portadaContacto {
-  height: 68rem;
-  width: 50rem;
-}
-main div .containerForm .containerContact .content {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5em 1.5em 0 1.5em;
-}
-main div .containerForm .containerContact .content h1 {
-  color: white;
-}
-main div .containerForm .containerContact .content .contact-wrapper {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-  padding: 1em;
-}
-main div .containerForm .containerContact .content .contact-wrapper .contact-form {
-  background: #3F4045;
-  margin-top: 1rem;
-  width: 100%;
-  height: 36rem;
-}
-main div .containerForm .containerContact .content .contact-wrapper .contact-form .logo {
-  text-align: center;
-  font-size: 3em;
-}
-main div .containerForm .containerContact .content .contact-wrapper .contact-form .logo span {
-  font-weight: bold;
-  color: #8E1515;
-}
-main div .containerForm .containerContact .content .contact-wrapper .contact-form form {
-  padding-right: 1rem;
-  position: relative;
-  bottom: 15rem;
-  left: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-main div .containerForm .containerContact .content .contact-wrapper .contact-form form button {
-  width: 100%;
-  background: white;
-  color: #000;
-  border: 0;
-  text-transform: uppercase;
-  padding: 1em;
-}
-main div .containerForm .containerContact .content .contact-wrapper .contact-form form buttonhover, main div .containerForm .containerContact .content .contact-wrapper .contact-form form buttonfocus {
-  background: black;
-  color: white;
-  transition: background-color 1s ease-out;
-  outline: 0;
-}
-main div .containerForm .containerContact .content .contact-wrapper .contact-form form input,
-main div .containerForm .containerContact .content .contact-wrapper .contact-form form textarea {
-  width: 100%;
-  padding: 0.7em;
-  border: none;
-  background: none;
-  outline: none;
-  color: white;
-  border-bottom: 1px solid white;
-}
-main div .containerForm .containerContact .content .contact-wrapper .contact-form form .block {
-  grid-column: 1/3;
-}
-main div .containerForm .containerContact .content .contact-wrapper .contact-form form p {
-  margin: 0;
-  padding: 1em;
-}
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 8rem; }
+  @media screen and (max-width: 500px) {
+    main div .containerForm {
+      color: white;
+      font-family: 'Quicksand', sans-serif;
+      margin-top: 2rem; } }
+  main div .containerForm .containerContact {
+    display: flex; }
+    main div .containerForm .containerContact .portadaContacto {
+      height: 68rem;
+      width: 50rem; }
+      @media screen and (max-width: 500px) {
+        main div .containerForm .containerContact .portadaContacto {
+          display: none; } }
+    main div .containerForm .containerContact .content {
+      max-width: 1170px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1.5em 1.5em 0 1.5em; }
+      @media screen and (max-width: 500px) {
+        main div .containerForm .containerContact .content {
+          max-width: 1170px;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 1.5em 1.5em 0 1.5em; } }
+      main div .containerForm .containerContact .content h1 {
+        color: white; }
+        @media screen and (max-width: 500px) {
+          main div .containerForm .containerContact .content h1 {
+            color: white; } }
+      main div .containerForm .containerContact .content .contact-wrapper {
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+        padding: 1em; }
+        @media screen and (max-width: 500px) {
+          main div .containerForm .containerContact .content .contact-wrapper {
+            box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+            padding: 1em; } }
+        main div .containerForm .containerContact .content .contact-wrapper .contact-form {
+          background: #3F4045;
+          margin-top: 1rem;
+          width: 100%;
+          height: 36rem; }
+          @media screen and (max-width: 500px) {
+            main div .containerForm .containerContact .content .contact-wrapper .contact-form {
+              background: #3F4045;
+              margin-top: 1rem;
+              width: 100%;
+              height: 35rem;
+              position: relative;
+              left: 0rem; } }
+          main div .containerForm .containerContact .content .contact-wrapper .contact-form .logo {
+            text-align: center;
+            font-size: 3em; }
+            @media screen and (max-width: 500px) {
+              main div .containerForm .containerContact .content .contact-wrapper .contact-form .logo {
+                text-align: center;
+                font-size: 3em; } }
+            main div .containerForm .containerContact .content .contact-wrapper .contact-form .logo span {
+              font-weight: bold;
+              color: #8E1515; }
+              @media screen and (max-width: 500px) {
+                main div .containerForm .containerContact .content .contact-wrapper .contact-form .logo span {
+                  font-weight: bold;
+                  color: #8E1515; } }
+          main div .containerForm .containerContact .content .contact-wrapper .contact-form form {
+            padding-right: 1rem;
+            position: relative;
+            bottom: 15rem;
+            left: 1rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr; }
+            @media screen and (max-width: 500px) {
+              main div .containerForm .containerContact .content .contact-wrapper .contact-form form {
+                position: relative;
+                bottom: 15rem;
+                left: 1rem; } }
+            main div .containerForm .containerContact .content .contact-wrapper .contact-form form button {
+              width: 100%;
+              background: white;
+              color: #000;
+              border: 0;
+              text-transform: uppercase;
+              padding: 1em; }
+              main div .containerForm .containerContact .content .contact-wrapper .contact-form form buttonhover, main div .containerForm .containerContact .content .contact-wrapper .contact-form form buttonfocus {
+                background: black;
+                color: white;
+                transition: background-color 1s ease-out;
+                outline: 0; }
+            main div .containerForm .containerContact .content .contact-wrapper .contact-form form input,
+            main div .containerForm .containerContact .content .contact-wrapper .contact-form form textarea {
+              width: 100%;
+              padding: .7em;
+              border: none;
+              background: none;
+              outline: none;
+              color: white;
+              border-bottom: 1px solid white; }
+            main div .containerForm .containerContact .content .contact-wrapper .contact-form form .block {
+              grid-column: 1 / 3; }
+            main div .containerForm .containerContact .content .contact-wrapper .contact-form form p {
+              margin: 0;
+              padding: 1em; }
+
 main div .contact-info {
   padding-top: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
   height: 26rem;
   width: 100%;
-  background: #333333;
-}
-main div .contact-info .maps {
-  margin-top: 1rem;
-  width: 100%;
-  height: 15rem;
-}
-main div .contact-info ul {
-  list-style: none;
-  padding: 0;
-}
-main div .contact-info ul li {
-  padding: 0.3em;
-}
-main div .contact-info h4,
-main div .contact-info ul,
-main div .contact-info p {
-  text-align: center;
-  margin: 0 0 1rem 0;
-}
+  background: #333333; }
+  @media screen and (max-width: 500px) {
+    main div .contact-info {
+      margin-bottom: 3rem;
+      height: 20rem;
+      width: 100%;
+      background: #333333;
+      position: relative;
+      left: 0rem; } }
+  main div .contact-info .maps {
+    margin-top: 1rem;
+    width: 100%;
+    height: 15rem; }
+    @media screen and (max-width: 500px) {
+      main div .contact-info .maps {
+        margin-top: 1rem;
+        width: 100%;
+        height: 10rem; } }
+  main div .contact-info ul {
+    list-style: none;
+    padding: 0; }
+    main div .contact-info ul li {
+      padding: .3em; }
+  main div .contact-info h4,
+  main div .contact-info ul,
+  main div .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0; }
+
 main form {
   padding-top: 16rem;
   position: relative;
   right: 10rem;
-  font-family: "Carlito", sans-serif;
-}
+  font-family: 'Carlito', sans-serif; }
 
 main section article .imgPortada {
   width: 100%;
-  height: 40rem;
-}
+  height: 40rem; }
+  @media screen and (max-width: 500px) {
+    main section article .imgPortada {
+      margin-top: 3rem;
+      height: 12rem;
+      width: 100%;
+      position: relative;
+      bottom: 3rem; } }
+
 main section article .textPortada {
   text-align: center;
   position: relative;
   bottom: 18rem;
   font-size: 5rem;
   color: white;
-  font-family: "Carlito", sans-serif;
-}
+  font-family: 'Carlito', sans-serif; }
+  @media screen and (max-width: 500px) {
+    main section article .textPortada {
+      position: relative;
+      bottom: 9rem;
+      color: white;
+      font-size: 2rem;
+      overflow: hidden; } }
+
 main section .textAlignPreguntasFrecuentes {
-  padding-left: 35rem;
-}
-main section .textAlignPreguntasFrecuentes .accordion {
-  width: 50rem;
-}
-main section .textAlignPreguntasFrecuentes .accordion .accordion-item {
-  font-family: "Carlito", sans-serif;
-}
-main section .textAlignPreguntasFrecuentes .accordion .accordion-item .accordion-header {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-}
-main section .textAlignPreguntasFrecuentes .accordion .accordion-item .accordion-header .letter {
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: "Overpass Mono", monospace;
-}
-main section .textAlignPreguntasFrecuentes .accordion .accordion-item .accordion-header button:hover {
-  color: red;
-}
+  padding-left: 35rem; }
+  @media screen and (max-width: 500px) {
+    main section .textAlignPreguntasFrecuentes {
+      position: relative;
+      bottom: 3rem;
+      right: 33rem; } }
+  main section .textAlignPreguntasFrecuentes .accordion {
+    width: 50rem; }
+    @media screen and (max-width: 500px) {
+      main section .textAlignPreguntasFrecuentes .accordion {
+        text-align: center;
+        width: 20rem; } }
+    main section .textAlignPreguntasFrecuentes .accordion .accordion-item {
+      font-family: 'Carlito', sans-serif; }
+      main section .textAlignPreguntasFrecuentes .accordion .accordion-item .accordion-header {
+        padding-top: 0rem;
+        padding-bottom: 0rem; }
+        main section .textAlignPreguntasFrecuentes .accordion .accordion-item .accordion-header .letter {
+          font-size: 1.5rem;
+          font-weight: bold;
+          font-family: 'Overpass Mono', monospace; }
+        main section .textAlignPreguntasFrecuentes .accordion .accordion-item .accordion-header button:hover {
+          color: red; }
 
 main section article .textPortadaPoliticaDeDevoluciones {
   text-align: center;
@@ -589,15 +747,26 @@ main section article .textPortadaPoliticaDeDevoluciones {
   bottom: 18rem;
   font-size: 5rem;
   color: white;
-  font-family: "Carlito", sans-serif;
-}
+  font-family: 'Carlito', sans-serif; }
+  @media screen and (max-width: 500px) {
+    main section article .textPortadaPoliticaDeDevoluciones {
+      position: relative;
+      bottom: 9rem;
+      color: white;
+      font-size: 2rem; } }
+
 main section article .textPoliticaDeDevoluciones {
   padding-left: 25rem;
   position: relative;
   bottom: 3rem;
-  font-family: "Carlito", sans-serif;
-  margin-bottom: 10rem;
-}
+  font-family: 'Carlito', sans-serif;
+  margin-bottom: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textPoliticaDeDevoluciones {
+      display: flex;
+      padding-left: 1rem;
+      position: relative;
+      bottom: 8rem; } }
 
 main section article .textPortadaCategorias {
   text-align: center;
@@ -605,43 +774,84 @@ main section article .textPortadaCategorias {
   bottom: 18rem;
   font-size: 5rem;
   color: white;
-  font-family: "Carlito", sans-serif;
-}
+  font-family: 'Carlito', sans-serif; }
+  @media screen and (max-width: 500px) {
+    main section article .textPortadaCategorias {
+      text-align: center;
+      position: relative;
+      bottom: 8rem;
+      font-size: 2rem;
+      color: white;
+      font-family: 'Carlito', sans-serif; } }
 
 main section article .imgPortadaNosotros {
   width: 100%;
   height: 40rem;
   position: relative;
-  top: 9rem;
-}
+  top: 9rem; }
+  @media screen and (max-width: 500px) {
+    main section article .imgPortadaNosotros {
+      width: 100%;
+      height: 10rem;
+      position: relative;
+      top: 4.5rem; } }
+
 main section article .textNosotros {
   padding-top: 15rem;
   text-align: center;
   font-size: 1.9rem;
-  font-family: "Carlito", sans-serif;
-}
+  font-family: 'Carlito', sans-serif; }
+  @media screen and (max-width: 500px) {
+    main section article .textNosotros {
+      padding-top: 8rem;
+      position: relative;
+      top: 3rem;
+      text-align: center;
+      font-size: 1rem;
+      font-family: 'Carlito', sans-serif; } }
+
 main section .imgalign {
   position: relative;
-  top: 10rem;
-}
-main section .imgalign .imgBannerUbicacion {
-  width: 110rem;
-  padding-left: 9rem;
-  margin-top: 3rem;
-  margin-bottom: 4rem;
-}
-main section .imgalign .textUbication {
-  text-align: center;
-  font-family: "Carlito", sans-serif;
-  font-size: 1.8rem;
-  position: relative;
-  bottom: 27rem;
-  color: white;
-}
-main section .imgalign .textUbication i {
-  font-weight: bold;
-  font-size: 4rem;
-}
+  top: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section .imgalign {
+      position: relative;
+      top: 10rem; } }
+  main section .imgalign .imgBannerUbicacion {
+    width: 110rem;
+    padding-left: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem; }
+    @media screen and (max-width: 500px) {
+      main section .imgalign .imgBannerUbicacion {
+        width: 100%;
+        position: relative;
+        bottom: 2rem;
+        padding-left: 0rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem; } }
+  main section .imgalign .textUbication {
+    text-align: center;
+    font-family: 'Carlito', sans-serif;
+    font-size: 1.8rem;
+    position: relative;
+    bottom: 27rem;
+    color: white; }
+    @media screen and (max-width: 500px) {
+      main section .imgalign .textUbication {
+        text-align: center;
+        font-family: 'Carlito', sans-serif;
+        font-size: 1rem;
+        position: relative;
+        bottom: 9.5rem;
+        color: white; } }
+    main section .imgalign .textUbication i {
+      font-weight: bold;
+      font-size: 4rem; }
+      @media screen and (max-width: 500px) {
+        main section .imgalign .textUbication i {
+          font-weight: bold;
+          font-size: 2rem; } }
 
 main section article .textPortadaCalzado {
   text-align: center;
@@ -649,216 +859,451 @@ main section article .textPortadaCalzado {
   bottom: 18rem;
   font-size: 5rem;
   color: white;
-  font-family: "Carlito", sans-serif;
-}
+  font-family: 'Carlito', sans-serif; }
+  @media screen and (max-width: 500px) {
+    main section article .textPortadaCalzado {
+      text-align: center;
+      position: relative;
+      bottom: 8rem;
+      font-size: 2rem;
+      color: white;
+      font-family: 'Carlito', sans-serif; } }
+
 main section article div .sizeImgJordanBlackCat {
   width: 20rem;
   position: relative;
-  right: 7rem;
-}
+  right: 7rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordanBlackCat {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
 main section article div .textAlignJordanBlackCat {
   margin-top: 3rem;
   position: relative;
-  right: 8rem;
-}
+  right: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordanBlackCat {
+      margin-top: 2rem;
+      position: relative;
+      right: 0rem; } }
+
 main section article div .sizeImgJordanOffWhite {
   width: 22rem;
   position: relative;
-  bottom: 5rem;
-}
+  bottom: 5rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordanOffWhite {
+      width: 70%;
+      position: relative;
+      bottom: 0rem; } }
+
 main section article div .textAlignJordanOffWhite {
   position: relative;
   bottom: 2rem;
-  right: 1.5rem;
-}
+  right: 1.5rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordanOffWhite {
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+      position: relative;
+      bottom: 0rem;
+      right: 0rem; } }
+
 main section article div .sizeImgJordan1Retro85 {
   position: relative;
   bottom: 3rem;
-  left: 7rem;
-}
+  left: 7rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordan1Retro85 {
+      width: 70%;
+      position: relative;
+      bottom: 0rem;
+      left: 0rem; } }
+
 main section article div .textAlignJordan1Retro85 {
   position: relative;
   bottom: 2rem;
-  left: 5rem;
-}
+  left: 5rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordan1Retro85 {
+      position: relative;
+      bottom: 0rem;
+      left: 0rem; } }
+
 main section article div .sizeImgJordanMilitaryBlack {
   width: 25rem;
   margin-top: 10rem;
   position: relative;
-  right: 7rem;
-}
+  right: 7rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordanMilitaryBlack {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      right: 0rem; } }
+
 main section article div .textAlignJordanMilitaryBlack {
   position: relative;
   right: 9rem;
-  bottom: 3rem;
-}
+  bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordanMilitaryBlack {
+      margin-bottom: 4rem;
+      position: relative;
+      right: 0rem;
+      bottom: 3.5rem; } }
+
 main section article div .sizeImgJordanPureMoney {
   width: 21rem;
   margin-top: 10rem;
   position: relative;
   right: 3rem;
-  top: 5rem;
-}
+  top: 5rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordanPureMoney {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      right: 0rem;
+      top: 0rem; } }
+
 main section article div .textAlignJordanPureMoney {
   position: relative;
   top: 8.5rem;
-  right: 4rem;
-}
+  right: 4rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordanPureMoney {
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+      position: relative;
+      top: 0rem;
+      right: 0rem; } }
+
 main section article div .sizeImgJordan1RetroUniversityBlue {
   width: 27rem;
   margin-top: 10rem;
   position: relative;
   left: 5rem;
-  top: 2rem;
-}
+  top: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordan1RetroUniversityBlue {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      left: 0rem;
+      top: 0rem; } }
+
 main section article div .textAlignJordan1RetroUniversityBlue {
   position: relative;
   top: 2rem;
-  left: 3rem;
-}
+  left: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordan1RetroUniversityBlue {
+      position: relative;
+      top: 0rem;
+      left: 0rem; } }
+
 main section article div .sizeImgJordanTravisScott {
   width: 27rem;
   position: relative;
-  right: 10rem;
-}
+  right: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordanTravisScott {
+      width: 70%;
+      position: relative;
+      bottom: 3rem;
+      right: 0rem; } }
+
 main section article div .textAlignJordanTravisScott {
   position: relative;
   top: 3.5rem;
-  right: 12rem;
-}
+  right: 12rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordanTravisScott {
+      position: relative;
+      bottom: 1rem;
+      top: 0rem;
+      right: 0rem; } }
+
 main section article div .sizeImgJordanHyperRoyal {
   width: 28rem;
   position: relative;
-  right: 6rem;
-}
+  right: 6rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordanHyperRoyal {
+      width: 70%;
+      position: relative;
+      bottom: 4rem;
+      right: 0rem; } }
+
 main section article div .textAlignJordanHyperRoyal {
   position: relative;
   bottom: 10rem;
-  right: 7rem;
-}
+  right: 7rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordanHyperRoyal {
+      position: relative;
+      bottom: 11.5rem;
+      right: 0rem; } }
+
 main section article div .sizeImgJordan1RetroDarkMocha {
   width: 23rem;
   position: relative;
   top: 8rem;
-  left: 1.5rem;
-}
+  left: 1.5rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordan1RetroDarkMocha {
+      width: 70%;
+      position: relative;
+      top: 0rem;
+      left: 0rem; } }
+
 main section article div .textAlignJordan1RetroDarkMocha {
   position: relative;
-  top: 6rem;
-}
+  top: 6rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordan1RetroDarkMocha {
+      position: relative;
+      top: 0rem; } }
+
 main section article div .sizeImgJordanRoyalToe {
   width: 25rem;
   position: relative;
-  right: 11rem;
-}
+  right: 11rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgJordanRoyalToe {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
 main section article div .textAlignJordanRoyalToe {
   position: relative;
   right: 13rem;
-  bottom: 3rem;
-}
+  bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignJordanRoyalToe {
+      position: relative;
+      right: 0rem;
+      bottom: 0rem; } }
+
 main section article div .sizeImgYeezyBlackRed {
   width: 25rem;
   position: relative;
-  right: 5rem;
-}
+  right: 5rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgYeezyBlackRed {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
 main section article div .textAlignYeezyBlackRed {
   position: relative;
   right: 6rem;
-  bottom: 3rem;
-}
+  bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignYeezyBlackRed {
+      margin-bottom: 4rem;
+      position: relative;
+      right: 0rem;
+      bottom: 2rem; } }
+
 main section article div .sizeImgYeezyCream {
   width: 23rem;
   position: relative;
   top: 7rem;
-  left: 2rem;
-}
+  left: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .sizeImgYeezyCream {
+      width: 70%;
+      position: relative;
+      top: 0rem;
+      left: 0rem; } }
+
 main section article div .textAlignYeezyCream {
   position: relative;
   top: 10rem;
-  left: 1.5rem;
-}
+  left: 1.5rem; }
+  @media screen and (max-width: 500px) {
+    main section article div .textAlignYeezyCream {
+      margin-top: 2rem;
+      position: relative;
+      top: 0rem;
+      left: 0rem; } }
+
 main section article .pagination {
   justify-content: center;
   padding-bottom: 10rem;
   position: relative;
-  top: 14rem;
-}
+  top: 14rem; }
+  @media screen and (max-width: 500px) {
+    main section article .pagination {
+      padding: 0;
+      margin: 0;
+      justify-content: none;
+      padding-bottom: 0rem;
+      padding-top: 8rem;
+      position: relative;
+      left: 0rem;
+      top: 0rem; } }
 
-main section article .sizeImgJordanWhiteOreo {
+@media screen and (max-width: 500px) {
+  main section article .row {
+    display: flex;
+    flex-direction: column; } }
+
+main section article .row .sizeImgJordanWhiteOreo {
   width: 25rem;
   position: relative;
-  right: 8rem;
-}
-main section article .textAlignJordanWhiteOreo {
+  right: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .sizeImgJordanWhiteOreo {
+      width: 70%;
+      position: relative;
+      right: 0; } }
+
+main section article .row .textAlignJordanWhiteOreo {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 10rem;
   position: relative;
-  right: 10rem;
-}
-main section article .sizeImgJordan1RetroHighDefiant {
+  right: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .textAlignJordanWhiteOreo {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .row .sizeImgJordan1RetroHighDefiant {
+  width: 25rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .sizeImgJordan1RetroHighDefiant {
+      width: 70%; } }
+
+main section article .row .textAlignJordan1RetroHighDefiant {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .textAlignJordan1RetroHighDefiant {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 3rem; } }
+
+main section article .row .sizeImgJordan1RetroYellowOchre {
   width: 25rem;
-}
-main section article .textAlignJordan1RetroHighDefiant {
+  position: relative;
+  left: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .sizeImgJordan1RetroYellowOchre {
+      width: 70%;
+      position: relative;
+      left: 0rem; } }
+
+main section article .row .textAlignJordan1RetroYellowOchre {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 10rem;
-}
-main section article .sizeImgJordan1RetroYellowOchre {
+  position: relative;
+  left: 6rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .textAlignJordan1RetroYellowOchre {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      position: relative;
+      left: 0rem; } }
+
+main section article .row .sizeImgJordan1RetroHighBredToe {
   width: 25rem;
   position: relative;
-  left: 8rem;
-}
-main section article .textAlignJordan1RetroYellowOchre {
+  right: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .sizeImgJordan1RetroHighBredToe {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
+main section article .row .textAlignJordan1RetroHighBredToe {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 10rem;
   position: relative;
-  left: 6rem;
-}
-main section article .sizeImgJordan1RetroHighBredToe {
-  width: 25rem;
-  position: relative;
-  right: 8rem;
-}
-main section article .textAlignJordan1RetroHighBredToe {
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 10rem;
-  position: relative;
-  right: 10rem;
-}
-main section article .sizeImgAdidasYeezyBoost350V2Onyx {
-  width: 25rem;
-}
-main section article .textAlignAdidasYeezyBoost350V2Onyx {
-  text-align: center;
-  padding-top: 2rem;
-  position: relative;
-  right: 1rem;
-}
-main section article .sizeImgAdidasYeezyBoost350V2CoreBlackWhite {
-  width: 25rem;
-  position: relative;
-  left: 8rem;
-}
-main section article .textAlignAdidasYeezyBoost350V2CoreBlackWhite {
+  right: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .textAlignJordan1RetroHighBredToe {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .row .sizeImgAdidasYeezyBoost350V2Onyx {
+  width: 25rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .sizeImgAdidasYeezyBoost350V2Onyx {
+      width: 70%; } }
+
+main section article .row .textAlignAdidasYeezyBoost350V2Onyx {
   text-align: center;
   padding-top: 2rem;
   position: relative;
-  left: 8rem;
-}
-main section article .sizeImgJordan1MidSEDarkChocolate {
+  right: 1rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .textAlignAdidasYeezyBoost350V2Onyx {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      position: relative;
+      right: 1rem; } }
+
+main section article .row .sizeImgAdidasYeezyBoost350V2CoreBlackWhite {
   width: 25rem;
   position: relative;
-  right: 37rem;
-}
-main section article .textAlignJordan1MidSEDarkChocolate {
+  left: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .sizeImgAdidasYeezyBoost350V2CoreBlackWhite {
+      width: 70%;
+      position: relative;
+      left: 0rem; } }
+
+main section article .row .textAlignAdidasYeezyBoost350V2CoreBlackWhite {
   text-align: center;
   padding-top: 2rem;
   position: relative;
-  right: 39rem;
-}
+  left: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .textAlignAdidasYeezyBoost350V2CoreBlackWhite {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      position: relative;
+      left: 0rem; } }
+
+main section article .row .sizeImgJordan1MidSEDarkChocolate {
+  width: 25rem;
+  position: relative;
+  right: 37rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .sizeImgJordan1MidSEDarkChocolate {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
+main section article .row .textAlignJordan1MidSEDarkChocolate {
+  text-align: center;
+  padding-top: 2rem;
+  position: relative;
+  right: 39rem; }
+  @media screen and (max-width: 500px) {
+    main section article .row .textAlignJordan1MidSEDarkChocolate {
+      text-align: center;
+      padding-top: 2rem;
+      position: relative;
+      right: 0rem; } }
 
 main section article .textPortadaIndumentaria {
   text-align: center;
@@ -866,455 +1311,1452 @@ main section article .textPortadaIndumentaria {
   bottom: 18rem;
   font-size: 5rem;
   color: white;
-  font-family: "Carlito", sans-serif;
-}
+  font-family: 'Carlito', sans-serif; }
+  @media screen and (max-width: 500px) {
+    main section article .textPortadaIndumentaria {
+      text-align: center;
+      position: relative;
+      bottom: 8rem;
+      font-size: 2rem;
+      color: white;
+      font-family: 'Carlito', sans-serif; } }
+
 main section article .sizeImngHoodieStussy {
   width: 30rem;
   position: relative;
-  right: 9rem;
-}
+  right: 9rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieStussy {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
 main section article .textAlignHoodieStussy {
   position: relative;
   right: 9rem;
-  top: 3rem;
-}
+  top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignHoodieStussy {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      right: 0rem;
+      top: 0rem; } }
+
 main section article .sizeImngPantsEssentialsButterCream {
   width: 18rem;
   position: relative;
-  right: 3rem;
-}
+  right: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngPantsEssentialsButterCream {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
 main section article .textAlignPantsEssentialsButterCream {
   position: relative;
   right: 3rem;
-  top: 3rem;
-}
+  top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignPantsEssentialsButterCream {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      right: 0rem;
+      top: 0rem; } }
+
 main section article .sizeImngT-shirtCactusJack {
   width: 20rem;
   position: relative;
-  left: 11rem;
-}
+  left: 11rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngT-shirtCactusJack {
+      width: 70%;
+      position: relative;
+      left: 0rem; } }
+
 main section article .textAlignT-shirtCactusJack {
   position: relative;
   left: 11rem;
-  top: 1rem;
-}
+  top: 1rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignT-shirtCactusJack {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      left: 0rem;
+      top: 0rem; } }
+
 main section article .sizeImngT-shirtStussyWorldTour {
   width: 20rem;
   margin-top: 10rem;
   position: relative;
-  right: 8rem;
-}
+  right: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngT-shirtStussyWorldTour {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      right: 0rem; } }
+
 main section article .textAlignT-shirtStussyWorldTour {
   position: relative;
   right: 8rem;
-  top: 2rem;
-}
+  top: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignT-shirtStussyWorldTour {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      right: 0rem;
+      top: 0rem; } }
+
 main section article .sizeImngHoodieEssentialTaupe {
   width: 25rem;
-  margin-top: 11rem;
-}
+  margin-top: 11rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieEssentialTaupe {
+      width: 70%;
+      margin-top: 0rem; } }
+
 main section article .textAlignHoodieEssentialTaupe {
   position: relative;
-  top: 3rem;
-}
+  top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignHoodieEssentialTaupe {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      top: 0rem; } }
+
 main section article .sizeImngShortEssentialsButterCream {
   width: 20rem;
   margin-top: 11rem;
   position: relative;
-  left: 12rem;
-}
+  left: 12rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngShortEssentialsButterCream {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      left: 0rem; } }
+
 main section article .textAlignShortEssentialsButterCream {
   position: relative;
   left: 11rem;
-  top: 2rem;
-}
+  top: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignShortEssentialsButterCream {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      left: 0rem;
+      top: 0rem; } }
+
 main section article .sizeImngHoodieEssentialCanary {
   width: 22rem;
   margin-top: 10rem;
   position: relative;
-  right: 10rem;
-}
+  right: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieEssentialCanary {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      right: 0rem; } }
+
 main section article .textAlignHoodieEssentialCanary {
   position: relative;
   right: 10rem;
-  top: 2rem;
-}
+  top: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignHoodieEssentialCanary {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      right: 0rem;
+      top: 0rem; } }
+
 main section article .sizeImngT-shirtTravisScot {
   width: 20rem;
-  margin-top: 10rem;
-}
+  margin-top: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngT-shirtTravisScot {
+      width: 70%;
+      margin-top: 0rem; } }
+
 main section article .textAlignT-shirtTravisScot {
   position: relative;
-  top: 4rem;
-}
+  top: 4rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignT-shirtTravisScot {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      top: 0rem; } }
+
 main section article .sizeImngHoodieSupremeNatural {
   width: 20rem;
   margin-top: 10rem;
   position: relative;
-  left: 12rem;
-}
+  left: 12rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieSupremeNatural {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      left: 0rem; } }
+
 main section article .textAlignHoodieSupremeNatural {
   position: relative;
   left: 11rem;
-  top: 4rem;
-}
+  top: 4rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignHoodieSupremeNatural {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      left: 0rem;
+      top: 0rem; } }
+
 main section article .sizeImngPantsEssentialsOffBlack {
   width: 22rem;
   margin-top: 10rem;
   position: relative;
-  right: 11rem;
-}
+  right: 11rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngPantsEssentialsOffBlack {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      right: 0rem; } }
+
 main section article .textAlignPantsEssentialsOffBlack {
   position: relative;
   right: 11rem;
-  top: 3rem;
-}
+  top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignPantsEssentialsOffBlack {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      right: 0rem;
+      top: 0rem; } }
+
 main section article .sizeImngShortJordanxTravisScott {
   width: 22rem;
-  margin-top: 10rem;
-}
+  margin-top: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngShortJordanxTravisScott {
+      width: 70%;
+      margin-top: 0rem; } }
+
 main section article .textAlignShortJordanxTravisScott {
   position: relative;
-  top: 3rem;
-}
+  top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignShortJordanxTravisScott {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      top: 0rem; } }
+
 main section article .sizeImngHoodieEssentials {
   width: 20rem;
   margin-top: 10rem;
   position: relative;
-  left: 11rem;
-}
+  left: 11rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieEssentials {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      left: 0rem; } }
+
 main section article .textAlignHoodieEssentials {
   position: relative;
   left: 10rem;
-  top: 4rem;
-}
+  top: 4rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignHoodieEssentials {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      position: relative;
+      left: 0rem;
+      top: 0rem; } }
+
+main section article .pasoDePagina li {
+  padding: 0.4rem; }
 
 main section article .sizeImngTshirtCactusJackxDior {
-  width: 25rem;
-}
+  width: 25rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTshirtCactusJackxDior {
+      width: 70%; } }
+
 main section article .textAlignTshirtCactusJackxDior {
-  padding-top: 4rem;
-}
+  padding-top: 4rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignTshirtCactusJackxDior {
+      padding-top: 2rem; } }
+
 main section article .sizeImngTshirtDrewHouse3dSherman {
   width: 25rem;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTshirtDrewHouse3dSherman {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngHoodieOffWhiteTapeDiagArrowsBlackBeige {
   width: 25rem;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieOffWhiteTapeDiagArrowsBlackBeige {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngHoodiePalmAngelsKillBear {
   width: 27rem;
   padding-top: 15rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodiePalmAngelsKillBear {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngSweatpantsJordanxJBalvinBlue {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 3.5rem;
-}
+  padding-bottom: 3.5rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSweatpantsJordanxJBalvinBlue {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngShortEssentialsMossGoat {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 4.5rem;
-}
+  padding-bottom: 4.5rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngShortEssentialsMossGoat {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngTShirtStussyBasicBlack {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtStussyBasicBlack {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngHoodieDrewHouseMascotBlack {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieDrewHouseMascotBlack {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngTShirtNikexStussyWhite {
   width: 24rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtNikexStussyWhite {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngTShirtDrewHouseFullMoonBlack {
   width: 21rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtDrewHouseFullMoonBlack {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngHoodieSupremeBandanaBoxLightBlue {
   width: 25rem;
   padding-top: 13.5rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieSupremeBandanaBoxLightBlue {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImngTShirtNikexStussyBlack {
   width: 22rem;
   padding-top: 15rem;
-  padding-bottom: 2.7rem;
-}
+  padding-bottom: 2.7rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtNikexStussyBlack {
+      width: 70%;
+      padding-top: 4rem;
+      padding-bottom: 2rem; } }
 
 main section article .sizeImngHoodieStussyWhite {
   width: 25rem;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieStussyWhite {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngShortEssentialsTaupe {
   width: 22rem;
   padding-top: 2rem;
-  padding-bottom: 4rem;
-}
+  padding-bottom: 4rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngShortEssentialsTaupe {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngTShirtDrewHouseSecretTeeWhite {
   width: 25rem;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtDrewHouseSecretTeeWhite {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngSwatpantsEssentialsPistachio {
   width: 23rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSwatpantsEssentialsPistachio {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngTShirtOffWhiteSprayPrintBlack {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtOffWhiteSprayPrintBlack {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngHoodieEssentialsWood {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieEssentialsWood {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngSweatpantEssentialsSeal {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSweatpantEssentialsSeal {
+      width: 70%;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngTShirtEssentialsTaupe {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtEssentialsTaupe {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngDrewHouseTheordoreSketchCrewneckOffWhite {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngDrewHouseTheordoreSketchCrewneckOffWhite {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngSweatpantNikexStussyInternationalBlack {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSweatpantNikexStussyInternationalBlack {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngTShirtdrewHouseSketchMascotTeeWhite {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtdrewHouseSketchMascotTeeWhite {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImngSweatpantEssentialsWood {
   width: 25rem;
   padding-top: 15rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSweatpantEssentialsWood {
+      width: 70%;
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
 
 main section article .sizeImgBilleteraOffWhite {
   width: 20rem;
   position: relative;
-  bottom: 12rem;
-}
+  bottom: 12rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgBilleteraOffWhite {
+      width: 70%;
+      position: relative;
+      bottom: 5rem; } }
+
 main section article .textAlignBilleteraOffWhite {
   position: relative;
-  bottom: 12rem;
-}
+  bottom: 12rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignBilleteraOffWhite {
+      position: relative;
+      bottom: 4rem; } }
+
 main section article .sizeImgCinturonSupreme {
   width: 20rem;
-  /* padding-top: 12rem; */
-  margin-left: 2rem;
-}
+  margin-left: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgCinturonSupreme {
+      width: 70%;
+      margin-left: 0rem; } }
+
 main section article .textAlignCinturonSupreme {
-  padding-top: 2.5rem;
-}
+  padding-top: 2.5rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignCinturonSupreme {
+      padding-top: 2rem;
+      padding-bottom: 4rem; } }
+
 main section article .sizeImgBilleteraSpremexLouisVuitton {
-  width: 17rem;
-  /* padding-top: 12rem; */
-}
+  width: 17rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgBilleteraSpremexLouisVuitton {
+      width: 70%; } }
+
 main section article .textAlignBilleteraSpremexLouisVuitton {
-  padding-top: 3rem;
-}
+  padding-top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignBilleteraSpremexLouisVuitton {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImgbilleterasupreme {
   width: 20rem;
-  /* padding-top: 8rem; */
-  padding-right: 2rem;
-}
+  padding-right: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgbilleterasupreme {
+      width: 70%;
+      padding-right: 0rem; } }
+
 main section article .sizeImgGorraJordan {
-  width: 20rem;
-  /* padding-top: 9rem; */
-}
+  width: 20rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgGorraJordan {
+      width: 70%;
+      padding-top: 3rem; } }
+
 main section article .textAlignGorraJordan {
-  padding-top: 2rem;
-}
+  padding-top: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignGorraJordan {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
+
 main section article .sizeImgGorraPalmAngels {
-  width: 19rem;
-  /* padding-top: 8rem; */
-}
+  width: 19rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgGorraPalmAngels {
+      width: 70%; } }
+
 main section article .textAlignGorraPalmAngels {
   position: relative;
-  bottom: 1rem;
-}
+  bottom: 1rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignGorraPalmAngels {
+      position: relative;
+      bottom: 0rem; } }
+
 main section article .sizeImgGorraSupreme {
   width: 23rem;
   padding-top: 6rem;
   position: relative;
-  right: 9rem;
-}
+  right: 9rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgGorraSupreme {
+      width: 70%;
+      padding-top: 0rem;
+      position: relative;
+      right: 0rem; } }
+
 main section article .textAlignGorraSupreme {
   position: relative;
   bottom: 1.8rem;
-  right: 10rem;
-}
+  right: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignGorraSupreme {
+      padding-bottom: 3rem;
+      position: relative;
+      bottom: 0rem;
+      right: 0rem; } }
+
 main section article .sizeImgGorroSupremeNewEraBoxLogo {
   width: 24rem;
   padding-top: 11rem;
   position: relative;
-  right: 21rem;
-}
+  right: 21rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgGorroSupremeNewEraBoxLogo {
+      width: 70%;
+      padding-top: 0rem;
+      position: relative;
+      right: 0rem; } }
+
 main section article .textAlignGorroSupremeNewEraBoxLogo {
   padding-top: 2rem;
   position: relative;
-  right: 21rem;
-}
+  right: 21rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignGorroSupremeNewEraBoxLogo {
+      padding-top: 2rem;
+      position: relative;
+      right: 0rem; } }
 
 footer {
   text-align: center;
-  margin-top: 2rem;
-}
-footer a:hover {
-  color: red;
-}
-footer .soporte {
-  display: inline-block;
-  position: relative;
-  left: 5rem;
-  font-size: 2rem;
-  font-family: "Overpass Mono", monospace;
-}
-footer .preguntas {
-  position: relative;
-  top: 3rem;
-  right: 2rem;
-  font-size: 1rem;
-  font-family: "Carlito", sans-serif;
-  color: black;
-}
-footer .flecha {
-  position: relative;
-  top: 3.5rem;
-  right: 13.5rem;
-  font-size: 1.6rem;
-  font-weight: bold;
-  font-weight: bolder 3rem;
-}
-footer .devoluciones {
-  position: relative;
-  top: 5rem;
-  right: 13.5rem;
-  font-size: 1rem;
-  font-family: "Carlito", sans-serif;
-  color: black;
-}
-footer .flecha-right {
-  position: relative;
-  top: 5.5rem;
-  right: 26.3rem;
-  font-size: 1.6rem;
-  font-weight: bold;
-  font-weight: bolder 3rem;
-}
-footer .mail {
-  position: relative;
-  top: 7.2rem;
-  right: 28rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-weight: bolder 3rem;
-}
-footer .gmail {
-  display: inline-block;
-  position: relative;
-  top: 7rem;
-  right: 27.8rem;
-  font-size: 1rem;
-  font-family: "Carlito", sans-serif;
-}
-footer .phone {
-  position: relative;
-  top: 9rem;
-  right: 39.3rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-weight: bolder 3rem;
-}
-footer .numero {
-  display: inline-block;
-  position: relative;
-  top: 8.8rem;
-  right: 39rem;
-  font-size: 1rem;
-  font-family: "Carlito", sans-serif;
-}
-footer .metodosde-pago {
-  position: relative;
-  bottom: 0.7rem;
-  font-size: 2rem;
-  font-family: "Overpass Mono", monospace;
-  display: inline-block;
-}
-footer .pagosContainer {
-  position: relative;
-  top: 7rem;
-  right: 10rem;
-  display: inline-block;
-}
-footer .visa {
-  position: relative;
-  top: 3rem;
-  right: 15rem;
-  font-size: 3.5rem;
-}
-footer .mastercard {
-  position: relative;
-  top: 3rem;
-  right: 15rem;
-  font-size: 3rem;
-}
-footer .paypal {
-  position: relative;
-  top: 3rem;
-  right: 15rem;
-  font-size: 3rem;
-}
-footer .redes-sociales {
-  display: inline-block;
-  position: relative;
-  bottom: 0.7rem;
-  left: 16rem;
-  font-size: 2rem;
-  font-family: "Overpass Mono", monospace;
-}
-footer .instagram {
-  display: inline-block;
-  position: relative;
-  top: 3rem;
-  left: 3rem;
-  font-size: 3rem;
-}
-footer .copyright {
-  position: relative;
-  top: 15rem;
-  right: 72rem;
-  font-size: 0.9rem;
-  font-family: "Carlito", sans-serif;
-  display: inline-block;
-  padding-bottom: 3rem;
-}
+  margin-top: 2rem; }
+  @media screen and (max-width: 500px) {
+    footer {
+      display: none; } }
+  footer a:hover {
+    color: red; }
+  footer .soporte {
+    display: inline-block;
+    position: relative;
+    left: 5rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace; }
+    @media screen and (max-width: 500px) {
+      footer .soporte {
+        display: block;
+        position: relative;
+        left: 0rem;
+        font-size: 2rem;
+        font-family: 'Overpass Mono', monospace; } }
+  footer .preguntas {
+    position: relative;
+    top: 3rem;
+    right: 2rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+    color: black; }
+    @media screen and (max-width: 500px) {
+      footer .preguntas {
+        display: block;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 1rem;
+        font-family: 'Carlito', sans-serif;
+        color: black; } }
+  footer .flecha {
+    position: relative;
+    top: 3.5rem;
+    right: 13.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-weight: bolder 3rem; }
+    @media screen and (max-width: 500px) {
+      footer .flecha {
+        margin-bottom: 1rem;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-weight: normal; } }
+  footer .devoluciones {
+    position: relative;
+    top: 5rem;
+    right: 13.5rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif;
+    color: black; }
+    @media screen and (max-width: 500px) {
+      footer .devoluciones {
+        display: block;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 1rem;
+        font-family: 'Carlito', sans-serif;
+        color: black; } }
+  footer .flecha-right {
+    position: relative;
+    top: 5.5rem;
+    right: 26.3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-weight: bolder 3rem; }
+    @media screen and (max-width: 500px) {
+      footer .flecha-right {
+        margin-bottom: 1rem;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-weight: normal; } }
+  footer .mail {
+    position: relative;
+    top: 7.2rem;
+    right: 28rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-weight: bolder 3rem; }
+    @media screen and (max-width: 500px) {
+      footer .mail {
+        margin-bottom: 0.5rem;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-weight: normal; } }
+  footer .gmail {
+    display: inline-block;
+    position: relative;
+    top: 7rem;
+    right: 27.8rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif; }
+    @media screen and (max-width: 500px) {
+      footer .gmail {
+        display: block;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 1rem;
+        font-family: 'Carlito', sans-serif; } }
+  footer .phone {
+    position: relative;
+    top: 9rem;
+    right: 39.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-weight: bolder 3rem; }
+    @media screen and (max-width: 500px) {
+      footer .phone {
+        margin-bottom: 1rem;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-weight: normal; } }
+  footer .numero {
+    display: inline-block;
+    position: relative;
+    top: 8.8rem;
+    right: 39rem;
+    font-size: 1rem;
+    font-family: 'Carlito', sans-serif; }
+    @media screen and (max-width: 500px) {
+      footer .numero {
+        display: block;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 1rem;
+        font-family: 'Carlito', sans-serif; } }
+  footer .metodosde-pago {
+    position: relative;
+    bottom: 0.7rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace;
+    display: inline-block; }
+    @media screen and (max-width: 500px) {
+      footer .metodosde-pago {
+        position: relative;
+        bottom: 0rem;
+        font-size: 2rem;
+        font-family: 'Overpass Mono', monospace;
+        display: block; } }
+  footer .pagosContainer {
+    position: relative;
+    top: 7rem;
+    right: 10rem;
+    display: inline-block; }
+  footer .visa {
+    position: relative;
+    top: 3rem;
+    right: 15rem;
+    font-size: 3.5rem; }
+    @media screen and (max-width: 500px) {
+      footer .visa {
+        margin-bottom: 3rem;
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 3.5rem; } }
+  footer .mastercard {
+    position: relative;
+    top: 3rem;
+    right: 15rem;
+    font-size: 3rem; }
+    @media screen and (max-width: 500px) {
+      footer .mastercard {
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 3rem; } }
+  footer .paypal {
+    position: relative;
+    top: 3rem;
+    right: 15rem;
+    font-size: 3rem; }
+    @media screen and (max-width: 500px) {
+      footer .paypal {
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 3rem; } }
+  footer .redes-sociales {
+    display: inline-block;
+    position: relative;
+    bottom: 0.7rem;
+    left: 16rem;
+    font-size: 2rem;
+    font-family: 'Overpass Mono', monospace; }
+    @media screen and (max-width: 500px) {
+      footer .redes-sociales {
+        display: block;
+        position: relative;
+        bottom: 0rem;
+        left: 0rem;
+        font-size: 2rem;
+        font-family: 'Overpass Mono', monospace; } }
+  footer .instagram {
+    display: inline-block;
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+    font-size: 3rem; }
+    @media screen and (max-width: 500px) {
+      footer .instagram {
+        margin-bottom: 3rem;
+        display: block;
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+        font-size: 3rem; } }
+  footer .copyright {
+    position: relative;
+    top: 15rem;
+    right: 72rem;
+    font-size: 0.9rem;
+    font-family: 'Carlito', sans-serif;
+    display: inline-block;
+    padding-bottom: 3rem; }
+    @media screen and (max-width: 500px) {
+      footer .copyright {
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        font-size: 0.9rem;
+        font-family: 'Carlito', sans-serif;
+        display: block;
+        padding-bottom: 3rem; } }
 
 .footerResponsive {
-  display: none;
-}
+  display: none; }
+  @media screen and (max-width: 500px) {
+    .footerResponsive {
+      display: block; } }
 
-/*# sourceMappingURL=styles.css.map */
+main section article .sizeImngPantsEssentialsButterCream {
+  width: 18rem;
+  position: relative;
+  right: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngPantsEssentialsButterCream {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignPantsEssentialsButterCream {
+  position: relative;
+  right: 3rem;
+  top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignPantsEssentialsButterCream {
+      position: relative;
+      right: 0rem;
+      top: 0rem; } }
+
+main section article .sizeImngHoodieEssentialTaupeB {
+  width: 25rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieEssentialTaupeB {
+      width: 70%; } }
+
+main section article .textAlignHoodieEssentialTaupeB {
+  position: relative;
+  top: 3rem; }
+
+main section article .sizeImngShortEssentialsButterCreamB {
+  width: 20rem;
+  position: relative;
+  left: 12rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngShortEssentialsButterCreamB {
+      width: 70%;
+      margin-top: 6rem;
+      position: relative;
+      left: 0rem; } }
+
+main section article .textAlignShortEssentialsButterCreamB {
+  position: relative;
+  left: 11rem;
+  top: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignShortEssentialsButterCreamB {
+      position: relative;
+      left: 0rem;
+      top: 2rem; } }
+
+main section article .sizeImngHoodieEssentialCanaryB {
+  width: 22rem;
+  margin-top: 10rem;
+  position: relative;
+  right: 4rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieEssentialCanaryB {
+      width: 70%;
+      margin-top: 6rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignHoodieEssentialCanaryB {
+  position: relative;
+  right: 4rem;
+  top: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignHoodieEssentialCanaryB {
+      margin-bottom: 6rem;
+      position: relative;
+      right: 0rem;
+      top: 2rem; } }
+
+main section article .sizeImngPantsEssentialsOffBlackB {
+  width: 22rem;
+  margin-top: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngPantsEssentialsOffBlackB {
+      width: 70%;
+      margin-top: 0rem; } }
+
+main section article .textAlignPantsEssentialsOffBlackB {
+  position: relative;
+  top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignPantsEssentialsOffBlackB {
+      margin-bottom: 6rem; } }
+
+main section article .sizeImngHoodieEssentials {
+  width: 20rem;
+  margin-top: 10rem;
+  position: relative;
+  left: 11rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieEssentials {
+      width: 70%;
+      margin-top: 0rem;
+      position: relative;
+      left: 0rem; } }
+
+main section article .textAlignHoodieEssentials {
+  position: relative;
+  left: 10rem;
+  top: 4rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignHoodieEssentials {
+      margin-bottom: 6rem;
+      position: relative;
+      left: 0rem;
+      top: 4rem; } }
+
+main section article .sizeImngShortEssentialsMossGoatB {
+  width: 25rem;
+  padding-top: 15rem;
+  padding-bottom: 4.5rem;
+  position: relative;
+  right: 5rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngShortEssentialsMossGoatB {
+      width: 70%;
+      padding-top: 0rem;
+      padding-bottom: 4.5rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignShortEssentialsMossGoatB {
+  position: relative;
+  right: 5rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignShortEssentialsMossGoatB {
+      margin-bottom: 6rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .sizeImngShortEssentialsTaupeB {
+  width: 22rem;
+  padding-top: 17rem;
+  padding-bottom: 4rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngShortEssentialsTaupeB {
+      width: 70%;
+      padding-top: 0rem;
+      padding-bottom: 4rem; } }
+
+main section article .sizeImngSwatpantsEssentialsPistachioB {
+  width: 23rem;
+  padding-top: 15rem;
+  padding-bottom: 6rem;
+  position: relative;
+  left: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSwatpantsEssentialsPistachioB {
+      width: 70%;
+      padding-top: 6rem;
+      padding-bottom: 4rem;
+      position: relative;
+      left: 0rem; } }
+
+main section article .textAlignSwatpantsEssentialsPistachioB {
+  position: relative;
+  left: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignSwatpantsEssentialsPistachioB {
+      position: relative;
+      left: 0rem; } }
+
+main section article .sizeImngHoodieEssentialsWoodB {
+  width: 25rem;
+  padding-top: 15rem;
+  padding-bottom: 2rem;
+  position: relative;
+  right: 7rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieEssentialsWoodB {
+      width: 70%;
+      padding-top: 6rem;
+      padding-bottom: 2rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignHoodieEssentialsWoodB {
+  position: relative;
+  right: 7rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignHoodieEssentialsWoodB {
+      position: relative;
+      right: 0rem; } }
+
+main section article .sizeImngSweatpantEssentialsSeal {
+  width: 25rem;
+  padding-top: 15rem;
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSweatpantEssentialsSeal {
+      width: 70%;
+      padding-top: 6rem;
+      padding-bottom: 3rem; } }
+
+main section article .sizeImngTShirtEssentialsTaupeB {
+  width: 25rem;
+  padding-top: 15rem;
+  padding-bottom: 3rem;
+  position: relative;
+  left: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtEssentialsTaupeB {
+      width: 70%;
+      padding-top: 6rem;
+      padding-bottom: 3rem;
+      position: relative;
+      left: 0rem; } }
+
+main section article .textAlignTShirtEssentialsTaupeB {
+  position: relative;
+  left: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignTShirtEssentialsTaupeB {
+      position: relative;
+      left: 0rem; } }
+
+main section article .sizeImngSweatpantEssentialsWoodB {
+  width: 25rem;
+  padding-top: 15rem;
+  padding-bottom: 3rem;
+  position: relative;
+  right: 36rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSweatpantEssentialsWoodB {
+      width: 70%;
+      padding-top: 6rem;
+      padding-bottom: 3rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignSweatpantEssentialsWoodB {
+  position: relative;
+  right: 36rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignSweatpantEssentialsWoodB {
+      position: relative;
+      right: 0rem; } }
+
+main section article .sizeImngHoodieStussy {
+  width: 30rem;
+  position: relative;
+  right: 9rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieStussy {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignHoodieStussy {
+  position: relative;
+  right: 9rem;
+  top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignHoodieStussy {
+      margin-bottom: 6rem;
+      position: relative;
+      right: 0rem;
+      top: 3rem; } }
+
+main section article .sizeImngT-shirtStussyWorldTourB {
+  width: 20rem;
+  margin-bottom: 1rem;
+  position: relative;
+  bottom: 1rem;
+  right: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngT-shirtStussyWorldTourB {
+      width: 70%;
+      margin-bottom: 1rem;
+      position: relative;
+      bottom: 1rem;
+      right: 0rem; } }
+
+main section article .textAlignT-shirtStussyWorldTourB {
+  position: relative;
+  right: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignT-shirtStussyWorldTourB {
+      margin-bottom: 6rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .sizeImngTShirtStussyBasicBlackB {
+  width: 25rem;
+  padding-bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtStussyBasicBlackB {
+      width: 70%;
+      padding-bottom: 3rem; } }
+
+main section article .sizeImngTShirtNikexStussyWhiteB {
+  width: 24rem;
+  padding-top: 15rem;
+  padding-bottom: 3rem;
+  position: relative;
+  right: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtNikexStussyWhiteB {
+      width: 70%;
+      padding-top: 6rem;
+      padding-bottom: 3rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignTShirtNikexStussyWhiteB {
+  position: relative;
+  right: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignTShirtNikexStussyWhiteB {
+      position: relative;
+      right: 0rem; } }
+
+main section article .sizeImngTShirtNikexStussyBlackB {
+  width: 22rem;
+  padding-top: 17rem;
+  padding-bottom: 2.7rem;
+  position: relative;
+  right: 6rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngTShirtNikexStussyBlackB {
+      width: 70%;
+      padding-top: 6rem;
+      padding-bottom: 2.7rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignTShirtNikexStussyBlackB {
+  position: relative;
+  right: 6rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignTShirtNikexStussyBlackB {
+      position: relative;
+      right: 0rem; } }
+
+main section article .sizeImngHoodieStussyWhiteB {
+  width: 25rem;
+  padding-top: 16rem;
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngHoodieStussyWhiteB {
+      width: 70%;
+      padding-top: 6rem;
+      padding-bottom: 2rem; } }
+
+main section article .sizeImngSweatpantNikexStussyInternationalBlackB {
+  width: 25rem;
+  padding-top: 15rem;
+  padding-bottom: 3rem;
+  position: relative;
+  right: 37rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSweatpantNikexStussyInternationalBlackB {
+      width: 70%;
+      padding-top: 6rem;
+      padding-bottom: 3rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignSweatpantNikexStussyInternationalBlackB {
+  position: relative;
+  right: 37rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignSweatpantNikexStussyInternationalBlackB {
+      position: relative;
+      right: 0rem; } }
+
+main section article .sizeImngSweatpantsJordanxJBalvinBlueB {
+  width: 25rem;
+  padding-bottom: 3.5rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImngSweatpantsJordanxJBalvinBlueB {
+      width: 70%;
+      padding-bottom: 3.5rem; } }
+
+main section article .sizeImgJordanBlackCatB {
+  width: 20rem;
+  margin-top: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordanBlackCatB {
+      width: 70%;
+      margin-top: 3rem; } }
+
+main section article .textAlignJordanBlackCatB {
+  margin-top: 5.5rem; }
+
+main section article .sizeImgJordanOffWhiteB {
+  width: 22rem;
+  margin-left: 7rem;
+  margin-top: 3rem;
+  position: relative;
+  bottom: 5rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordanOffWhiteB {
+      width: 70%;
+      margin-left: 0rem;
+      margin-top: 6rem;
+      position: relative;
+      bottom: 5rem; } }
+
+main section article .textAlignJordanOffWhiteB {
+  margin-top: 1rem;
+  position: relative;
+  left: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignJordanOffWhiteB {
+      position: relative;
+      left: 0rem; } }
+
+main section article .sizeImgJordan1Retro85B {
+  margin-top: 15rem;
+  margin-bottom: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordan1Retro85B {
+      width: 70%;
+      margin-top: 6rem;
+      margin-bottom: 2rem; } }
+
+main section article .sizeImgJordanMilitaryBlackB {
+  width: 25rem;
+  margin-top: 10rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordanMilitaryBlackB {
+      width: 70%;
+      margin-top: 6rem; } }
+
+main section article .sizeImgJordanPureMoneyB {
+  width: 21rem;
+  margin-top: 15rem;
+  margin-bottom: 7rem;
+  margin-left: 2rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordanPureMoneyB {
+      width: 70%;
+      margin-top: 6rem;
+      margin-bottom: 5rem;
+      margin-left: 0rem; } }
+
+main section article .sizeImgJordanHyperRoyalB {
+  width: 28rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordanHyperRoyalB {
+      width: 70%; } }
+
+main section article .textAlignJordanHyperRoyalB {
+  position: relative;
+  bottom: 7rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignJordanHyperRoyalB {
+      margin-top: 0rem;
+      position: relative;
+      bottom: 0rem; } }
+
+main section article .sizeImgJordan1RetroDarkMochaB {
+  width: 23rem;
+  margin-top: 9rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordan1RetroDarkMochaB {
+      width: 70%;
+      margin-top: 6rem; } }
+
+main section article .textAlignJordanHyperRoyalB {
+  position: relative;
+  bottom: 7rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignJordanHyperRoyalB {
+      position: relative;
+      bottom: 0rem; } }
+
+main section article .sizeImgJordanRoyalToeB {
+  width: 25rem;
+  margin-top: 8rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordanRoyalToeB {
+      width: 70%;
+      margin-top: 6rem; } }
+
+main section article .textAlignJordanRoyalToeB {
+  bottom: 3rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignJordanRoyalToeB {
+      bottom: 0rem; } }
+
+main section article .sizeImgGorraJordanB {
+  width: 20rem;
+  position: relative;
+  right: 28rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgGorraJordanB {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignGorraJordanB {
+  padding-top: 2rem;
+  position: relative;
+  right: 28rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignGorraJordanB {
+      padding-top: 2rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .sizeImgJordan1RetroHighBredToeB {
+  width: 25rem;
+  position: relative;
+  right: 15rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordan1RetroHighBredToeB {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignJordan1RetroHighBredToeB {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  position: relative;
+  right: 17rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignJordan1RetroHighBredToeB {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 0rem;
+      position: relative;
+      right: 0rem; } }
+
+main section article .sizeImgJordan1MidSEDarkChocolateB {
+  width: 25rem;
+  position: relative;
+  right: 20rem; }
+  @media screen and (max-width: 500px) {
+    main section article .sizeImgJordan1MidSEDarkChocolateB {
+      width: 70%;
+      position: relative;
+      right: 0rem; } }
+
+main section article .textAlignJordan1MidSEDarkChocolateB {
+  text-align: center;
+  padding-top: 2rem;
+  position: relative;
+  right: 21rem; }
+  @media screen and (max-width: 500px) {
+    main section article .textAlignJordan1MidSEDarkChocolateB {
+      text-align: center;
+      padding-top: 2rem;
+      position: relative;
+      right: 0rem; } }

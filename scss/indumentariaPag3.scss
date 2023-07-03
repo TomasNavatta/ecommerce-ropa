@@ -1,0 +1,137 @@
+main{
+    section{
+        article{
+            .sizeImngHoodieStussyWhite{
+                width: 25rem;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngShortEssentialsTaupe{
+                width: 22rem;
+                padding-top: 2rem;
+                padding-bottom: 4rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngTShirtDrewHouseSecretTeeWhite{
+                width: 25rem;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngSwatpantsEssentialsPistachio{
+                width: 23rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngTShirtOffWhiteSprayPrintBlack{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngHoodieEssentialsWood{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngSweatpantEssentialsSeal{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                  
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngTShirtEssentialsTaupe{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngDrewHouseTheordoreSketchCrewneckOffWhite{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngSweatpantNikexStussyInternationalBlack{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngTShirtdrewHouseSketchMascotTeeWhite{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+            
+            .sizeImngSweatpantEssentialsWood{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 2rem;
+                    padding-bottom: 4rem;
+                }
+            }
+        }
+    }
+}

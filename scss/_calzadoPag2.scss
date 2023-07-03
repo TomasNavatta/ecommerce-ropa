@@ -1,0 +1,177 @@
+main{
+    section{
+        article{
+            .row{
+                @include mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .sizeImgJordanWhiteOreo{
+                    width: 25rem;
+                    position: relative;
+                    right: 8rem;
+                    @include mobile{
+                        width: 70%;
+                      position: relative;
+                      right: 0;
+                    }
+                }
+                
+                .textAlignJordanWhiteOreo{
+                    text-align: center;
+                    padding-top: 2rem;
+                    padding-bottom: 10rem;
+                    position: relative;
+                    right: 10rem;
+                    @include mobile{
+                        text-align: center;
+                        padding-top: 2rem;
+                        padding-bottom: 3rem;
+                        position: relative;
+                        right: 0rem;
+                    }
+                }
+                
+                .sizeImgJordan1RetroHighDefiant{
+                    width: 25rem;
+                    @include mobile{
+                        width: 70%;
+                    }
+                }
+                .textAlignJordan1RetroHighDefiant{
+                    text-align: center;
+                    padding-top: 2rem;
+                    padding-bottom: 10rem;
+                    @include mobile{
+                        text-align: center;
+                        padding-top: 2rem;
+                        padding-bottom: 3rem;
+                    }
+                }
+                
+                .sizeImgJordan1RetroYellowOchre{
+                    width: 25rem;
+                    position: relative;
+                    left: 8rem;
+                    @include mobile{
+                        width: 70%;
+                        position: relative;
+                        left: 0rem;
+                    }
+                    
+                }
+                
+                .textAlignJordan1RetroYellowOchre{
+                    text-align: center;
+                    padding-top: 2rem;
+                    padding-bottom: 10rem;
+                    position: relative;
+                    left: 6rem;
+                    @include mobile{
+                        text-align: center;
+                        padding-top: 2rem;
+                        padding-bottom: 3rem;
+                        position: relative;
+                        left: 0rem;
+                    }
+                }
+                
+                .sizeImgJordan1RetroHighBredToe{
+                    width: 25rem;
+                    position: relative;
+                    right: 8rem;
+                    @include mobile{
+                        width: 70%;
+                        position: relative;
+                        right: 0rem;
+                    }
+                }
+                
+                .textAlignJordan1RetroHighBredToe{
+                    text-align: center;
+                    padding-top: 2rem;
+                    padding-bottom: 10rem;
+                    position: relative;
+                    right: 10rem;
+                    @include mobile{
+                        text-align: center;
+                        padding-top: 2rem;
+                        padding-bottom: 3rem;
+                        position: relative;
+                        right: 0rem;
+                    }
+                }
+                
+                .sizeImgAdidasYeezyBoost350V2Onyx{
+                    width: 25rem;
+                    @include mobile{
+                        width: 70%;
+                    }
+                }
+                .textAlignAdidasYeezyBoost350V2Onyx{
+                    text-align: center;
+                    padding-top: 2rem;
+                    position: relative;
+                    right: 1rem;
+                    @include mobile{
+                        text-align: center;
+                        padding-top: 2rem;
+                        padding-bottom: 3rem;
+                        position: relative;
+                        right: 1rem;
+                    }
+                }
+                
+                .sizeImgAdidasYeezyBoost350V2CoreBlackWhite{
+                    width: 25rem;
+                    position: relative;
+                    left: 8rem;
+                    @include mobile{
+                        width: 70%;
+                        position: relative;
+                        left: 0rem;
+                    }
+                }
+                .textAlignAdidasYeezyBoost350V2CoreBlackWhite{
+                    text-align: center;
+                    padding-top: 2rem;
+                    position: relative;
+                    left: 8rem;
+                    @include mobile{
+                        text-align: center;
+                        padding-top: 2rem;
+                        padding-bottom: 3rem;
+                        position: relative;
+                        left: 0rem;
+                    }
+                }
+                
+                .sizeImgJordan1MidSEDarkChocolate{
+                    width: 25rem;
+                    position: relative;
+                    right: 37rem;
+                    @include mobile{
+                        width: 70%;
+                        position: relative;
+                        right: 0rem;
+                    }
+                }
+                
+                .textAlignJordan1MidSEDarkChocolate{
+                    text-align: center;
+                    padding-top: 2rem;
+                    position: relative;
+                    right: 39rem;
+                    @include mobile{
+                        text-align: center;
+                        padding-top: 2rem;
+                        position: relative;
+                        right: 0rem;
+                    }
+                
+                }
+            }
+          
+        }
+    }
+}

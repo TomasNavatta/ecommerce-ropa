@@ -1,0 +1,141 @@
+main{
+    section{
+        article{
+            .sizeImngTshirtCactusJackxDior{
+                width: 25rem;
+                @include mobile{
+                    width: 70%;
+                }
+            }
+            
+            .textAlignTshirtCactusJackxDior{
+                padding-top: 4rem;
+                @include mobile{
+                    padding-top: 2rem;
+                }
+            }
+            
+            .sizeImngTshirtDrewHouse3dSherman{
+                width: 25rem;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngHoodieOffWhiteTapeDiagArrowsBlackBeige{
+                width: 25rem;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngHoodiePalmAngelsKillBear{
+                width: 27rem;
+                padding-top: 15rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngSweatpantsJordanxJBalvinBlue{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 3.5rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngShortEssentialsMossGoat{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 4.5rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngTShirtStussyBasicBlack{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngHoodieDrewHouseMascotBlack{
+                width: 25rem;
+                padding-top: 15rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngTShirtNikexStussyWhite{
+                width: 24rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngTShirtDrewHouseFullMoonBlack{
+                width: 21rem;
+                padding-top: 15rem;
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngHoodieSupremeBandanaBoxLightBlue{
+                width: 25rem;
+                padding-top: 13.5rem;
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            .sizeImngTShirtNikexStussyBlack{
+                width: 22rem;
+                padding-top: 15rem;
+                padding-bottom: 2.7rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            
+        }
+    }
+}

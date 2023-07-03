@@ -1,0 +1,58 @@
+main{
+    section{
+        article{
+            
+            .sizeImgJordan1RetroHighBredToeB{
+                width: 25rem;
+                position: relative;
+                right: 15rem;
+                @include mobile{
+                    width: 70%;
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+            
+            .textAlignJordan1RetroHighBredToeB{
+                text-align: center;
+                padding-top: 2rem;
+                padding-bottom: 10rem;
+                position: relative;
+                right: 17rem;
+                @include mobile{
+                    text-align: center;
+                    padding-top: 2rem;
+                    padding-bottom: 0rem;
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+            
+            
+            .sizeImgJordan1MidSEDarkChocolateB{
+                width: 25rem;
+                position: relative;
+                right: 20rem;
+                @include mobile{
+                    width: 70%;
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+            
+            .textAlignJordan1MidSEDarkChocolateB{
+                text-align: center;
+                padding-top: 2rem;
+                position: relative;
+                right: 21rem;
+                @include mobile{
+                    text-align: center;
+                    padding-top: 2rem;
+                    position: relative;
+                    right: 0rem;
+                }
+            
+            }
+        }
+    }
+}

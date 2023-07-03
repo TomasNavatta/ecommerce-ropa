@@ -1,0 +1,448 @@
+main{
+    .portada{
+        height: 39.65rem;
+        margin-top: 8rem;
+        @include mobile{
+            width: 100%;
+            height: 10rem;
+            margin-top: 4.5rem;
+        }
+    
+    }
+    section{
+        div{
+            h2{
+                text-align: center;
+                padding-top: 2rem;
+                padding-bottom: 5rem;
+                font-size: 2rem;
+                font-family: 'Overpass Mono', monospace;
+                @include mobile{
+                    text-align: center;
+                    padding-top: 2rem;
+                    padding-bottom: 5rem;
+                    font-size: 1.5rem;
+                    font-family: 'Overpass Mono', monospace;
+                }
+            }
+        }
+        article{
+            .splide__track{
+    
+                display: flex;
+                align-items: center;
+                .img_box{
+                    width: 15rem;
+                    .sweatpantEssentialsSeal{
+                        width: 25rem;
+                        position: relative;
+                        right: 3rem;
+                    }
+                    .textSweatpantEssentialsSeal{
+                        text-align: center;
+                        padding-top: 3rem;
+                        position: relative;
+                        left: 2rem;
+                    }
+                    .hoodieOffWhiteTapeDiagArrowsBlackBeige{
+                        width: 25rem;
+                       
+                    }
+                    .textHoodieOffWhiteTapeDiagArrowsBlackBeige{
+                        text-align: center;
+                        padding-top: 2rem;
+                        position: relative;
+                        left: 5rem;
+                    }
+                    
+                    .hoodieSupremeBandanaBoxLightBlue{
+                        width: 25rem;
+                       
+                    }
+                    .textHoodieSupremeBandanaBoxLightBlue{
+                        text-align: center;
+                        padding-top: 2rem;
+                        position: relative;
+                        left: 5rem;
+                    }
+                    .sweatpantNikexStussyInternationalBlack{
+                        width: 25rem;
+                        
+                    }
+                    .textSweatpantNikexStussyInternationalBlack{
+                        text-align: center;
+                        padding-top: 2rem;
+                        position: relative;
+                        left: 5rem;
+                    }
+                    .hoodieDrewHouseMascotBlack{
+                        width: 25rem;
+                       
+                    }
+                    .textHoodieDrewHouseMascotBlack{
+                        text-align: center;
+                        padding-top: 3rem;
+                        position: relative;
+                        left: 5rem;
+                    }
+                    .sweatpantsJordanxJBalvinBlue{
+                        width: 25rem;
+                    }
+                    .textSweatpantsJordanxJBalvinBlue{
+                        text-align: center;
+                        padding-top: 3rem;
+                        position: relative;
+                        left: 5rem;
+                    }
+                    .hoodieEssentialsWood{
+                        width: 25rem;
+                        
+                       
+                    }
+                    
+                    .textHoodieEssentialsWood{
+                        padding-top: 3rem;
+                        text-align: center;
+                        position: relative;
+                        left: 5rem;
+                    }
+                    .hoodiePalmAngelsKillBear{
+                        width: 25rem;
+                       
+                    }
+                    .textHoodiePalmAngelsKillBear{
+                        padding-top: 3rem;
+                        text-align: center;
+                        position: relative;
+                        left: 5rem;
+                    }
+                }
+                
+            }
+
+        }
+    }
+    section{
+        Article{
+            .marcas{
+                display: flex;
+                justify-content: space-around;
+                padding-bottom: 4rem;
+                position: relative;
+                top: 6rem;
+                @include mobile{
+                    display: none;
+                }
+                .logo-jordan{
+                    height: 6rem;
+                    width: 10rem;
+                }
+                
+                .logo-stussy{
+                    height: 7rem;
+                    width: 11rem;
+                }
+                
+                .logo-essentials{
+                    height: 4rem;
+                    width: 8rem;
+                    position: relative;
+                    top: 2rem;
+                }
+                
+                .logo-palmangels{
+                    height: 7rem;
+                    width: 11rem;
+                }
+                
+                .logo-northface{
+                    height: 5rem;
+                    width: 9rem;
+                    position: relative;
+                    top: 1.2rem;
+                
+                }
+                
+                .logo-offwhite{
+                    height: 7rem;
+                    width: 11rem;
+                }
+            
+            }
+        }
+    }
+    .ropaContainer{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 8rem;
+        font-family: 'Overpass Mono', monospace;
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        @include mobile{
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: none;
+            margin-top: 0rem;
+            font-family: 'Overpass Mono', monospace;
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+        }
+        div{
+            .imagen-calzado{
+                height: 35rem;
+                width: 37rem;
+                @include mobile{
+                    height: 20rem;
+                    width: 100%;
+                }
+            }
+            
+             a:hover{
+                color: white;
+            }
+            
+            a{
+                color: white;
+            }
+            
+            .textPortadaCalzado{
+                text-align: center;
+                position: relative;
+                bottom: 18rem;
+                font-size: 5rem;
+                color: white;
+                font-family: 'Carlito', sans-serif;
+            }
+            
+            .calzado{
+                position: relative;
+                bottom: 20rem;
+                @include mobile{
+                    position: relative;
+                    bottom: 10rem;
+                }
+            }
+            
+            .imagen-indumentaria{
+                height: 35rem;
+                width: 37rem;
+                @include mobile{
+                    height: 20rem;
+                    width: 100%;
+                }
+            }
+            
+            .indumentaria{
+                position: relative;
+                bottom: 20rem;
+                @include mobile{
+                    position: relative;
+                    bottom: 10rem;
+                }
+            }
+            
+            .imagen-accesorios{
+                height: 35rem;
+                width: 37rem;
+                @include mobile{
+                    height: 20rem;
+                    width: 100%;
+                }
+            }
+            
+            .accesorios{
+                position: relative;
+                bottom: 20rem;
+                @include mobile{
+                    position: relative;
+                    bottom: 12rem;
+                }
+            }
+            
+            
+
+            
+
+        }
+    }
+    section{
+        article{
+            .quienes-somos{
+                text-align: center;
+                font-size: 2.5rem;
+                padding-bottom: 5rem;
+                font-family: 'Overpass Mono', monospace;
+                @include mobile{
+                    text-align: center;
+                    font-size: 2rem;
+                    padding-bottom: 2rem;
+                    font-family: 'Overpass Mono', monospace;
+                }
+                
+                
+            }
+            .texto-quienesomos{
+
+                text-align: center;
+                font-family: 'Carlito', sans-serif;
+                font-size: 1.6rem;
+                @include mobile{
+                    text-align: center;
+                    font-family: 'Carlito', sans-serif;
+                    font-size: 1rem;
+                }
+            
+            }
+            button{
+                a:hover{
+                    color: white;
+                    @include mobile{
+                        color: white;
+                    }
+                }
+            }
+            .estilosButton{
+                padding: 0.3rem;
+                border-style: solid;
+                color: white;
+                background-color: black;
+                font-size: 1.5rem;
+                font-family: 'Carlito', sans-serif;
+                border-radius: 0.7rem;
+                position: relative;
+                top: 3rem;
+                left: 54rem;
+                @include mobile{
+                    padding: 0.3rem;
+                    border-style: solid;
+                    color: white;
+                    background-color: black;
+                    font-size: 1rem;
+                    font-family: 'Carlito', sans-serif;
+                    border-radius: 0.7rem;
+                    position: relative;
+                    top: 1rem;
+                    left: 7.5rem;
+                }
+                a{
+                    color: white;
+                    @include mobile{
+                        color: white;
+                    }
+                    p{
+                        position: relative;
+                        top: 0.5rem;
+                        @include mobile{
+                            position: relative;
+                            top: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section{
+        .imgConteiner{
+            display: flex;
+            margin-top: 15rem;
+            justify-content: space-around;
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+                margin-top: 15rem;
+                justify-content: space-around 
+            }
+            .imagen-essentials{
+                @include mobile{
+                    width: 100%;
+                }
+            }
+            .imagen-jordan{
+                height: 33.2rem;
+                width: 35rem;
+                @include mobile{
+                    height: 33.2rem;
+                    width: 100%;
+                }
+            }
+            
+            .imagen-supreme{
+                height: 33.2rem;
+                width: 35rem;
+                @include mobile{
+                    height: 33.2rem;
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+    .iconContainer{
+        display: flex;
+        font-family: 'Carlito', sans-serif;
+        margin-top: 8rem;
+        justify-content: space-around;
+        @include mobile{
+            display: none;
+        }
+        .productos{
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-weight: bolder 3rem; 
+        }
+        
+        .exclusivos{
+            font-size: 1.2rem;
+            position: relative;
+            right: 7rem;
+            
+            
+        }
+        .camion{
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-weight: bolder 3rem;
+        }
+        
+        .envios{
+            font-size: 1.2rem;
+            position: relative;
+            right: 7rem;
+           
+            
+        }
+        
+        .candado{
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-weight: bolder 3rem;
+        }
+        
+        .seguro{
+            font-size: 1.2rem;
+            position: relative;
+            right: 7rem;
+           
+        }
+        
+        .garantia{
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-weight: bolder 3rem;
+        }
+        
+        .calidad{
+            font-size: 1.2rem;
+            position: relative;
+            right: 7rem;
+            
+        }
+    }
+}
+.separador{
+    margin-top: 4rem;
+}
