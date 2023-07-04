@@ -37,10 +37,10 @@ header {
          
           display: block;
           margin: 50px 0;
-          line-height: 30px;
+          line-height:  30px;
           position: relative;
           right: 2.5rem;
-          top: 4rem;
+          top: 0rem;
           
           &:active{
             background: none;
@@ -159,6 +159,7 @@ header {
   .sizeul {
     font-size: 1.5rem;
     list-style-type: none;
+   
   }
   
   .menu_vertical {
@@ -170,11 +171,28 @@ header {
     height: 23rem;
     background-color: white;
     z-index: 10;
+    li{
+      line-height: 5px;
+      position: relative;
+      bottom: 3rem;
+    }
+    @include mobile{
+     
+      height: 25rem;
+      width: 100%;
+    
+    }
   }
   
   header nav ul li ul {
-    padding-top: 10rem;
+    padding-top: 7rem;
     padding-right: 7rem;
+    @include mobile{
+      padding-top: 0rem;
+      padding-right: 7rem;
+      position: relative;
+      left: 5rem;
+    }
   }
   
   .sizeul li:hover .menu_vertical {
@@ -186,6 +204,7 @@ header {
     flex-direction: column;
     position: relative;
     bottom: 3rem;
+    
   }
   
   .sub_menu_Indumentaria {
@@ -215,10 +234,15 @@ header {
     width: 50rem;
     height: 20rem;
     background-color: white;
+    
   }
   
   .sizeul li:hover .menu_verticalb {
     display: block;
+    @include mobile{
+      display: none;
+    }
+   
   }
   
   li {
@@ -229,6 +253,7 @@ header {
     margin-bottom: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+  
   }
   
   a {
