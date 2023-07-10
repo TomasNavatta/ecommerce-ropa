@@ -1,0 +1,48 @@
+main{
+    section{
+        article{
+            .sizeImgBilleteraOffWhiteB{
+                width: 20rem;
+                position: relative;
+                bottom: 8rem;
+                @include mobile{
+                    width: 70%;
+                    position: relative;
+                    bottom: 5rem;
+                }
+            }
+            .textAlignBilleteraOffWhiteB{
+                position: relative;
+                bottom: 8rem;
+                @include mobile{
+                    position: relative;
+                    bottom: 4rem;
+                }
+            }
+
+            .sizeImngHoodieOffWhiteTapeDiagArrowsBlackBeigeB{
+                width: 25rem;
+        
+                padding-bottom: 2rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+
+            .sizeImngTShirtOffWhiteSprayPrintBlackB{
+                width: 25rem;
+            
+                padding-bottom: 3rem;
+                @include mobile{
+                    width: 70%;
+                    padding-top: 8rem;
+                    padding-bottom: 4rem;
+                }
+            }
+
+            
+        }
+    }
+}

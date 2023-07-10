@@ -199,51 +199,7 @@ header {
     display: block;
   }
   
-  .sub_menu_Calzado {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    bottom: 3rem;
-    
-  }
-  
-  .sub_menu_Indumentaria {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 15rem;
-    bottom: 7rem;
-  }
-  
-  .sub_menu_Accesorios {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 32rem;
-    bottom: 22.5rem;
-  }
-  
-  .menu_verticalb {
-    line-height: 0.2rem;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    display: none;
-    list-style: none;
-    z-index: 10;
-    width: 50rem;
-    height: 20rem;
-    background-color: white;
-    
-  }
-  
-  .sizeul li:hover .menu_verticalb {
-    display: block;
-    @include mobile{
-      display: none;
-    }
-   
-  }
+ 
   
   li {
     display: inline-block;
